@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+<rect width="100%" height="100%" fill="white"/>
+<style>
+.axis{stroke:#111;stroke-width:3;fill:none}
+.line{stroke:#111;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.thin{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.dash{stroke:#111;stroke-width:2;fill:none;stroke-dasharray:8 8}
+.bar{stroke:#111;stroke-width:3;fill:#f7f7f7}
+.txt{font-family:serif;font-size:24px;fill:#111}
+.small{font-family:serif;font-size:18px;fill:#111}
+.grid{stroke:#ddd;stroke-width:1;fill:none}
+</style>
+<path class="axis" d="M90 270 H690"/>
+<circle cx="160" cy="270" r="8" fill="#111"/><circle cx="310" cy="270" r="8" fill="#111"/><circle cx="460" cy="270" r="8" fill="#111"/><circle cx="610" cy="270" r="8" fill="#111"/>
+<text class="small" x="125" y="310">傳統秩序</text><text class="small" x="275" y="310">外力衝擊</text><text class="small" x="425" y="310">改革思潮</text><text class="small" x="580" y="310">群眾運動</text>
+<text class="txt" x="240" y="95">近代變遷線索</text>
+</svg>

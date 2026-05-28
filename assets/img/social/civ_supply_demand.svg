@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+<rect width="100%" height="100%" fill="white"/>
+<style>
+.axis{stroke:#111;stroke-width:3;fill:none}
+.line{stroke:#111;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.thin{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.dash{stroke:#111;stroke-width:2;fill:none;stroke-dasharray:8 8}
+.bar{stroke:#111;stroke-width:3;fill:#f7f7f7}
+.txt{font-family:serif;font-size:24px;fill:#111}
+.small{font-family:serif;font-size:18px;fill:#111}
+.grid{stroke:#ddd;stroke-width:1;fill:none}
+</style>
+<path class="axis" d="M110 430 H680"/><path class="axis" d="M110 430 V70"/>
+<path class="line" d="M160 370 L620 130"/><text class="small" x="620" y="125">S</text>
+<path class="line" d="M160 130 L620 370"/><text class="small" x="620" y="390">D₁</text>
+<path class="dash" d="M170 90 L650 330"/><text class="small" x="650" y="335">D₂</text>
+<text class="small" x="620" y="465">數量</text><text class="small" x="55" y="90">價格</text>
+<text class="txt" x="220" y="45">需求增加示意圖</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520">
+  <rect width="100%" height="100%" fill="white"/>
+  <style>
+    .axis{stroke:#111;stroke-width:3;fill:none;stroke-linecap:round}
+    .line{stroke:#111;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .bar{stroke:#111;stroke-width:3;fill:#f7f7f7}
+    .txt{font-family:serif;font-size:24px;fill:#111}
+    .small{font-family:serif;font-size:19px;fill:#111}
+    .grid{stroke:#ddd;stroke-width:1;fill:none}
+  </style>
+  
+  <path class="axis" d="M100 430 H650"/>
+  <path class="axis" d="M100 430 V70"/>
+  <g class="grid">
+    <path d="M100 370 H650 M100 310 H650 M100 250 H650 M100 190 H650 M100 130 H650"/>
+  </g>
+  <!-- y scale: 20 at 370, 22 at 310, 24 at 250, 26 at 190, 28 at 130 -->
+  <path class="line" d="M150 310 L250 250 L350 190 L450 130 L550 190 L630 250"/>
+  <g fill="#111">
+    <circle cx="150" cy="310" r="6"/><circle cx="250" cy="250" r="6"/><circle cx="350" cy="190" r="6"/>
+    <circle cx="450" cy="130" r="6"/><circle cx="550" cy="190" r="6"/><circle cx="630" cy="250" r="6"/>
+  </g>
+  <text class="small" x="135" y="462">Mon</text><text class="small" x="235" y="462">Tue</text>
+  <text class="small" x="335" y="462">Wed</text><text class="small" x="435" y="462">Thu</text>
+  <text class="small" x="535" y="462">Fri</text><text class="small" x="615" y="462">Sat</text>
+  <text class="small" x="62" y="375">20</text><text class="small" x="62" y="315">22</text>
+  <text class="small" x="62" y="255">24</text><text class="small" x="62" y="195">26</text>
+  <text class="small" x="62" y="135">28</text>
+  <text class="txt" x="230" y="45">Daily Average Temperature</text>
+
+</svg>

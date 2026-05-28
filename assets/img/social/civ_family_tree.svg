@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+<rect width="100%" height="100%" fill="white"/>
+<style>
+.axis{stroke:#111;stroke-width:3;fill:none}
+.line{stroke:#111;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.thin{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.dash{stroke:#111;stroke-width:2;fill:none;stroke-dasharray:8 8}
+.bar{stroke:#111;stroke-width:3;fill:#f7f7f7}
+.txt{font-family:serif;font-size:24px;fill:#111}
+.small{font-family:serif;font-size:18px;fill:#111}
+.grid{stroke:#ddd;stroke-width:1;fill:none}
+</style>
+<circle cx="220" cy="130" r="35" fill="white" stroke="#111" stroke-width="3"/><text class="small" x="205" y="137">祖父</text>
+<circle cx="360" cy="130" r="35" fill="white" stroke="#111" stroke-width="3"/><text class="small" x="345" y="137">祖母</text>
+<path class="thin" d="M255 130 H325"/>
+<path class="thin" d="M290 165 V235 H480 V300"/>
+<circle cx="290" cy="270" r="35" fill="white" stroke="#111" stroke-width="3"/><text class="small" x="275" y="277">父</text>
+<circle cx="480" cy="270" r="35" fill="white" stroke="#111" stroke-width="3"/><text class="small" x="465" y="277">母</text>
+<path class="thin" d="M325 270 H445"/>
+<path class="thin" d="M385 305 V380"/>
+<circle cx="385" cy="420" r="35" fill="white" stroke="#111" stroke-width="3"/><text class="small" x="370" y="427">小明</text>
+<text class="txt" x="250" y="60">親屬關係圖</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520">
+  <rect width="100%" height="100%" fill="white"/>
+  <style>
+    .axis{stroke:#111;stroke-width:3;fill:none;stroke-linecap:round}
+    .line{stroke:#111;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .bar{stroke:#111;stroke-width:3;fill:#f7f7f7}
+    .txt{font-family:serif;font-size:24px;fill:#111}
+    .small{font-family:serif;font-size:19px;fill:#111}
+    .grid{stroke:#ddd;stroke-width:1;fill:none}
+  </style>
+  
+  <path class="axis" d="M90 360 H650"/>
+  <g class="thin">
+    <path d="M150 330 V390 M250 330 V390 M350 330 V390 M450 330 V390 M550 330 V390 M650 330 V390"/>
+  </g>
+  <text class="small" x="142" y="420">50</text><text class="small" x="242" y="420">60</text>
+  <text class="small" x="342" y="420">70</text><text class="small" x="442" y="420">80</text>
+  <text class="small" x="542" y="420">90</text><text class="small" x="642" y="420">100</text>
+  <!-- min=55, Q1=65, median=75, Q3=85, max=95 -->
+  <path class="line" d="M200 250 H300"/>
+  <path class="line" d="M500 250 H600"/>
+  <path class="line" d="M200 220 V280"/>
+  <path class="line" d="M600 220 V280"/>
+  <rect class="bar" x="300" y="200" width="200" height="100"/>
+  <path class="line" d="M400 200 V300"/>
+  <text class="small" x="183" y="190">55</text>
+  <text class="small" x="285" y="190">65</text>
+  <text class="small" x="385" y="190">75</text>
+  <text class="small" x="485" y="190">85</text>
+  <text class="small" x="585" y="190">95</text>
+  <text class="txt" x="250" y="55">Box Plot of Scores</text>
+
+</svg>

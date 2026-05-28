@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520">
+  <rect width="100%" height="100%" fill="white"/>
+  <style>
+    .line{stroke:#111;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .dash{stroke:#111;stroke-width:2.5;fill:none;stroke-dasharray:8 8;stroke-linecap:round}
+    .txt{font-family:serif;font-size:26px;fill:#111}
+    .small{font-family:serif;font-size:22px;fill:#111}
+    .grid{stroke:#ddd;stroke-width:1;fill:none}
+  </style>
+  
+  <path class="line" d="M360 80 L560 220 L500 430 H220 L160 220 Z"/>
+  <text class="small" x="330" y="125">108°</text>
+  <text class="small" x="500" y="240">116°</text>
+  <text class="small" x="440" y="395">102°</text>
+  <text class="small" x="230" y="395">94°</text>
+  <text class="txt" x="180" y="250">x</text>
+
+</svg>

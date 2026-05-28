@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520">
+  <rect width="100%" height="100%" fill="white"/>
+  <style>
+    .line{stroke:#111;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .dash{stroke:#111;stroke-width:2.5;fill:none;stroke-dasharray:8 8;stroke-linecap:round}
+    .txt{font-family:serif;font-size:26px;fill:#111}
+    .small{font-family:serif;font-size:22px;fill:#111}
+    .grid{stroke:#ddd;stroke-width:1;fill:none}
+  </style>
+  
+  <circle class="line" cx="260" cy="260" r="120"/>
+  <circle cx="260" cy="260" r="5" fill="#111"/>
+  <path class="line" d="M260 260 L260 140"/>
+  <path class="line" d="M260 140 L560 260"/>
+  <path class="line" d="M260 260 L560 260"/>
+  <path class="thin" d="M250 140 h20 v20 h-20 z"/>
+  <text class="small" x="225" y="205">5</text>
+  <text class="small" x="400" y="255">13</text>
+  <text class="txt" x="385" y="185">x</text>
+  <text class="small" x="238" y="286">O</text><text class="small" x="245" y="128">T</text><text class="small" x="565" y="270">P</text>
+
+</svg>

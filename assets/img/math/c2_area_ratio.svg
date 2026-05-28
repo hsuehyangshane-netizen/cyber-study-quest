@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520">
+  <rect width="100%" height="100%" fill="white"/>
+  <style>
+    .line{stroke:#111;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .dash{stroke:#111;stroke-width:2.5;fill:none;stroke-dasharray:8 8;stroke-linecap:round}
+    .txt{font-family:serif;font-size:26px;fill:#111}
+    .small{font-family:serif;font-size:22px;fill:#111}
+    .grid{stroke:#ddd;stroke-width:1;fill:none}
+  </style>
+  
+  <path class="line" d="M140 380 L270 160 L400 380 Z"/>
+  <path class="line" d="M430 390 L590 110 L690 390 Z"/>
+  <text class="small" x="250" y="410">small △ side 6</text>
+  <text class="small" x="515" y="420">large △ side 10</text>
+
+</svg>
