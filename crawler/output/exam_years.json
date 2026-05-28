@@ -1,0 +1,101 @@
+{
+  "entry_url": "https://cap.rcpet.edu.tw/examination.html",
+  "years": [
+    {
+      "year_label": "115年國中教育會考",
+      "title": "115年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/115/115exam.html",
+      "selected": true
+    },
+    {
+      "year_label": "114年國中教育會考",
+      "title": "114年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "113年國中教育會考",
+      "title": "113年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "112年國中教育會考",
+      "title": "112年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "111年國中教育會考",
+      "title": "111年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "111年參考試題本",
+      "title": "111年參考試題本",
+      "url": "https://cap.rcpet.edu.tw/exam/111c/111practice.html",
+      "selected": false
+    },
+    {
+      "year_label": "110年國中教育會考",
+      "title": "110年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "109年國中教育會考",
+      "title": "109年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/109/109exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "108年國中教育會考",
+      "title": "108年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/108/108exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "107年國中教育會考",
+      "title": "107年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/107/107exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "106年國中教育會考",
+      "title": "106年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/106/106exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "105年國中教育會考",
+      "title": "105年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/105/105exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "104年國中教育會考",
+      "title": "104年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/104/104exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "103年國中教育會考",
+      "title": "103年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/103/103exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "102年試辦國中教育會考",
+      "title": "102年國中教育會考試題",
+      "url": "https://cap.rcpet.edu.tw/exam/102/102exam.html",
+      "selected": false
+    },
+    {
+      "year_label": "國中基測歷屆試題",
+      "title": "國中基測歷屆試題",
+      "url": "https://cap.rcpet.edu.tw/BCTESTexam.html",
+      "selected": false
+    }
+  ]
+}
