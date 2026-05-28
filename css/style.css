@@ -727,6 +727,26 @@ body {
   margin:8px 0;
   white-space:pre-line;
 }
+.ai-assistant-card{
+  margin-top:18px;
+  padding:16px 18px;
+  border-radius:20px;
+  border:1px solid rgba(59,232,255,.2);
+  background:rgba(10,12,28,.92);
+  box-shadow:0 0 22px rgba(59,232,255,.12);
+}
+.ai-assistant-title{
+  font-weight:900;
+  color:var(--blue);
+  margin-bottom:10px;
+}
+.ai-assistant-content,
+.ai-assistant-result{
+  color:var(--text);
+  white-space:pre-wrap;
+  line-height:1.8;
+  font-size:15px;
+}
 .reading-mode .grid.two:first-of-type,
 .reading-mode #feedbackArea,
 .reading-mode .grid.two:last-of-type{

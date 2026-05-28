@@ -77,6 +77,7 @@
 - `parse_pdf.py`: 從下載的 PDF 中擷取文字，輸出 JSON 或 TXT
 - `ai_modify.py`: 重新改寫題目，支援本地模型或模板改寫
 - `ai_assistant.py`: AI 助教 CLI，查詢題庫並搭配本地模型回答
+- `ai_assistant_server.py`: 啟動本地 AI 助教後端，提供題目錯題輔導與完成答題建議
 
 ## 6. 注意事項
 
@@ -127,6 +128,20 @@ python3 crawler/convert_to_js.py --input crawler/output/revised_questions.json -
 ```bash
 python3 crawler/ai_assistant.py --question-bank data/question_bank_math.json
 ```
+
+### 8) 啟動本地 AI 助教服務
+
+```bash
+python3 crawler/ai_assistant_server.py --model-path /path/to/ggml-model.bin
+```
+
+如果沒有本地模型，也可以先啟動服務，系統會使用簡單規則回傳：
+
+```bash
+python3 crawler/ai_assistant_server.py
+```
+
+啟動後，進到遊戲頁面答題，答題後按「AI 助教輔導」即可在回饋區下方取得提示。
 
 ## 8. AI 改題
 

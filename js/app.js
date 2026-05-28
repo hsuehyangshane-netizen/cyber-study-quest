@@ -48,6 +48,7 @@ const state = {
   weakPracticeMode: false,
   weakPracticeTypeKey: null,
   aiPracticeQuestion: null,
+  aiAssistEnabled: false,
   lastWrongRecord: null,
   chests: 0,
   healPotion: 0,
@@ -2239,6 +2240,22 @@ function makeWrongLine(q,choice,extra){
 }
 
 function showFeedback(ok,q,choice,novaText){
+  window.aiAssistantPayload = {
+    question: q.question || q.Question || "",
+    choices: Array.isArray(q.choices)
+      ? q.choices
+      : Array.isArray(q.options)
+        ? q.options
+        : Array.isArray(q.Options)
+          ? q.Options
+          : [],
+    choice: choice || "",
+    answer: q.answer || q.Correct_Answer || "",
+    explanation: q.explanation || q.Explanation || "",
+    subject: q.subject || q.Subject || q.Subject_Area || "",
+    topic: q.topic || q.Topic_Name || q.type || "",
+    difficulty: q.difficulty || q.Difficulty || "",
+  };
   const bossFeedback = !!q.boss;
   const cls=ok?"correct":"wrong";
   const title=ok?"✅ 攻擊成功｜答案正確":"⚠️ 怪物反擊｜答案錯誤";
@@ -2262,8 +2279,71 @@ function showFeedback(ok,q,choice,novaText){
     <div class="battle-actions">
       ${!ok && state.hp>0 && !state.counterMode && state.gameMode !== "daily3" && !state.hiddenBossMode && state.gameMode !== "hidden" ? `<button class="secondary-btn counter-btn" onclick="startCounterQuestion()">⚔️ 錯題反擊</button>` : ""}${nextBtn}
       ${state.gameMode !== "daily3" ? `<button class="secondary-btn" onclick="showReport()">📊 查看目前報告</button>` : ""}
+      <button class="secondary-btn" onclick="toggleAIAssistanceMode()">${state.aiAssistEnabled ? '🔵 AI 模式：ON' : '⚪ AI 模式：OFF'}</button>
+      <button class="secondary-btn" onclick="requestAIAssistance()">🤖 AI 助教</button>
+    </div>
+    <div id="aiAssistantArea" class="ai-assistant-card">
+      <div class="ai-assistant-title">AI 助教</div>
+      <div id="aiAssistantContent" class="ai-assistant-content">按一下「AI 助教輔導」，如果尚未啟動本地模型服務，請先執行服務。</div>
     </div>
   `;
+
+  if(state.aiAssistEnabled){
+    requestAIAssistance();
+  }
+}
+
+function toggleAIAssistanceMode(){
+  state.aiAssistEnabled = !state.aiAssistEnabled;
+  const target = $("aiAssistantContent");
+  if(target){
+    target.innerHTML = state.aiAssistEnabled
+      ? "AI 模式已開啟，答題後會自動顯示輔導結果。"
+      : "AI 模式已關閉，按一下 AI 助教按鈕可手動查詢。";
+  }
+  if(state.aiAssistEnabled && window.aiAssistantPayload){
+    requestAIAssistance();
+  }
+}
+
+function requestAIAssistance(){
+  const target = $("aiAssistantContent");
+  if(!window.aiAssistantPayload){
+    if(target) target.innerHTML = "無可用題目資料，請重新載入題目後再試。";
+    return;
+  }
+  if(target) target.innerHTML = "正在向本地 AI 助教請求建議，請稍候...";
+  fetch('http://127.0.0.1:5000/assist', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(window.aiAssistantPayload),
+  })
+    .then(resp => resp.json())
+    .then(data => {
+      if(!target) return;
+      if(!data.success){
+        target.innerHTML = `服務回傳錯誤：${data.error || '未知錯誤'}`;
+        return;
+      }
+      if(data.detail && data.detail.guidance){
+        target.innerHTML = `<pre class="ai-assistant-result">${escapeHtml(data.detail.guidance)}</pre>`;
+        return;
+      }
+      target.innerHTML = `<pre class="ai-assistant-result">${escapeHtml(data.text || JSON.stringify(data, null, 2))}</pre>`;
+    })
+    .catch(err => {
+      if(target) target.innerHTML = `無法連線到本地 AI 助教，請確認已啟動服務並開啟 http://127.0.0.1:5000/health 。`;
+      console.error('AI assistant error', err);
+    });
+}
+
+function escapeHtml(str){
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 function goNext(){
