@@ -1,0 +1,3002 @@
+window.MY_SCIENCE_BANK = [
+  {
+    "id": "BIO-001",
+    "Subject_Area": "生物",
+    "Topic_Name": "生命世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "intro",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某實驗室觀察四種樣本：甲會自行移動但不會繁殖；乙能繁殖、需要養分且細胞內有細胞膜；丙是一顆石灰岩；丁是水滴。依據生命現象判斷，哪一個最可能是生物？",
+    "Options": {
+      "A": "甲，因為能移動就一定是生物",
+      "B": "乙，因為具有細胞構造且能繁殖與代謝",
+      "C": "丙，因為岩石會形成晶體",
+      "D": "丁，因為水滴會流動"
+    },
+    "Correct_Answer": "B",
+    "Solution_Steps": [
+      "生物通常具有細胞構造，並能進行代謝、生長、繁殖、感應等生命現象。",
+      "甲只具移動現象不足以判斷為生物；丙與丁不具生命現象。"
+    ],
+    "Hint": "判斷生物時不要只看單一現象，要看是否同時具備多項生命特徵。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-002",
+    "Subject_Area": "生物",
+    "Topic_Name": "生命世界",
+    "Question_Type": "實驗操作",
+    "Difficulty": "基礎",
+    "stage": "intro",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "小組用顯微鏡觀察洋蔥表皮細胞。若視野太暗且細胞邊界不清楚，下列哪一項調整最適合先嘗試？",
+    "Options": {
+      "A": "直接改用高倍物鏡並快速轉動粗調節輪",
+      "B": "調整光圈或反光鏡，使進光量增加",
+      "C": "把玻片拿起來用手電筒從側面照射",
+      "D": "將物鏡壓到玻片上以縮短距離"
+    },
+    "Correct_Answer": "B",
+    "Solution_Steps": [
+      "視野太暗可先增加進光量，例如調整光圈、反光鏡或光源。",
+      "高倍物鏡會使視野更暗，且高倍下不應快速轉動粗調節輪。"
+    ],
+    "Hint": "顯微鏡影像太暗時，先想光線路徑。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-003",
+    "Subject_Area": "生物",
+    "Topic_Name": "生命世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "intro",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某學生比較動物細胞與植物細胞，發現甲細胞有細胞壁與葉綠體，乙細胞沒有。下列推論何者最合理？",
+    "Options": {
+      "A": "甲較可能來自植物，乙較可能來自動物",
+      "B": "甲一定是細菌，因為有細胞壁",
+      "C": "乙一定不能進行呼吸作用",
+      "D": "甲沒有細胞膜，因為已有細胞壁"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "植物細胞常具有細胞壁與葉綠體，動物細胞沒有細胞壁與葉綠體。",
+      "有細胞壁不等於一定是細菌，且植物細胞仍有細胞膜。"
+    ],
+    "Hint": "葉綠體與細胞壁是判斷植物細胞的重要線索。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-004",
+    "Subject_Area": "生物",
+    "Topic_Name": "養分獲得、物質運輸",
+    "Question_Type": "圖表判讀",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": "BIO-G1",
+    "Passage": "題組資料：小晴利用連通管與帶葉枝條測量植物吸水速率。管中氣泡在每小時移動距離如下：8-9時為3 mm、10-11時為6 mm、12-13時為10 mm、14-15時為8 mm、16-17時為4 mm。氣泡移動越遠，代表枝條吸水越快。",
+    "Question": "根據題組資料，哪一時段植物吸水速率最快？",
+    "Options": {
+      "A": "8-9時",
+      "B": "10-11時",
+      "C": "12-13時",
+      "D": "16-17時"
+    },
+    "Correct_Answer": "C",
+    "Solution_Steps": [
+      "氣泡移動距離越遠，代表吸水越快。",
+      "12-13時移動10 mm，為所有時段最大。"
+    ],
+    "Hint": "找出資料中最大值。",
+    "Image_Requirement": {
+      "Need_Image": true,
+      "Past_Exam_Reference": "自製仿會考自然科圖表",
+      "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
+      "Local_Image": "./assets/img/science/bio_transpiration_bar.svg",
+      "Alt_Text": "蒸散作用氣泡移動距離長條圖"
+    }
+  },
+  {
+    "id": "BIO-005",
+    "Subject_Area": "生物",
+    "Topic_Name": "養分獲得、物質運輸",
+    "Question_Type": "實驗設計",
+    "Difficulty": "精熟",
+    "stage": "middle",
+    "Group_ID": "BIO-G1",
+    "Passage": "題組資料：小晴利用連通管與帶葉枝條測量植物吸水速率。管中氣泡在每小時移動距離如下：8-9時為3 mm、10-11時為6 mm、12-13時為10 mm、14-15時為8 mm、16-17時為4 mm。氣泡移動越遠，代表枝條吸水越快。",
+    "Question": "承上題，若要檢驗「風速」是否影響吸水速率，最適合的實驗設計為何？",
+    "Options": {
+      "A": "只改變照光顏色，其他條件不控制",
+      "B": "使用同一枝條，分別放在無風與有風環境，並盡量控制光照與溫度相同",
+      "C": "同時改變風速、溫度與葉片數",
+      "D": "只比較早上與中午的資料，不需額外控制變因"
+    },
+    "Correct_Answer": "B",
+    "Solution_Steps": [
+      "探究風速時，風速是操作變因，光照、溫度、葉片數等需盡量控制。",
+      "同時改變多個因素會使結果無法歸因。"
+    ],
+    "Hint": "操作變因只能有一個。",
+    "Image_Requirement": {
+      "Need_Image": true,
+      "Past_Exam_Reference": "自製仿會考自然科圖表",
+      "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
+      "Local_Image": "./assets/img/science/bio_transpiration_bar.svg",
+      "Alt_Text": "蒸散作用氣泡移動距離長條圖"
+    }
+  },
+  {
+    "id": "BIO-006",
+    "Subject_Area": "生物",
+    "Topic_Name": "養分獲得、物質運輸",
+    "Question_Type": "概念應用",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某植物被套上透明塑膠袋後，袋內逐漸出現水珠。下列解釋何者最合理？",
+    "Options": {
+      "A": "葉片蒸散出的水蒸氣在袋內凝結",
+      "B": "葉片行光合作用產生液態水並直接滴出",
+      "C": "根部吸入空氣後從葉片排出液態水",
+      "D": "塑膠袋本身被陽光照射後產生水"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "葉片的氣孔會進行蒸散作用，水分以水蒸氣散失。",
+      "透明袋內水蒸氣遇較冷表面凝結成水珠。"
+    ],
+    "Hint": "水珠來自植物散失的水分。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-007",
+    "Subject_Area": "生物",
+    "Topic_Name": "養分獲得、物質運輸",
+    "Question_Type": "實驗解釋",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "小明將澱粉液與唾液混合並保持在接近體溫的環境，數分鐘後用碘液檢測，藍黑色變淡。此結果最能支持何者？",
+    "Options": {
+      "A": "唾液中的酵素可分解澱粉",
+      "B": "碘液會把澱粉變成葡萄糖",
+      "C": "體溫會讓所有物質消失",
+      "D": "澱粉遇唾液一定變成脂肪"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "碘液遇澱粉呈藍黑色，變淡表示澱粉量減少。",
+      "唾液含澱粉酶，可將澱粉分解成較小分子。"
+    ],
+    "Hint": "碘液是用來檢測澱粉是否存在。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-008",
+    "Subject_Area": "生物",
+    "Topic_Name": "養分獲得、物質運輸",
+    "Question_Type": "概念應用",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "人在運動後呼吸變快，主要是為了滿足哪一項需求？",
+    "Options": {
+      "A": "排出更多氧氣並吸入二氧化碳",
+      "B": "提供細胞更多氧氣並排出較多二氧化碳",
+      "C": "讓肺泡停止氣體交換以節省能量",
+      "D": "讓血液完全不經過肺部"
+    },
+    "Correct_Answer": "B",
+    "Solution_Steps": [
+      "運動時細胞呼吸作用加強，需要更多氧氣並產生較多二氧化碳。",
+      "呼吸變快有助於氣體交換與維持體內環境穩定。"
+    ],
+    "Hint": "運動時細胞需要更多能量。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-009",
+    "Subject_Area": "生物",
+    "Topic_Name": "養分獲得、物質運輸",
+    "Question_Type": "生活應用",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某人長期飲食缺乏含鐵食物，容易導致血紅素不足。最可能直接影響下列哪一功能？",
+    "Options": {
+      "A": "血液運送氧氣的能力",
+      "B": "骨骼產生關節液的能力",
+      "C": "胃酸中和膽汁的能力",
+      "D": "皮膚製造神經的能力"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "血紅素位於紅血球中，主要與氧氣運輸有關。",
+      "缺鐵可能造成血紅素不足，使氧氣運送效率下降。"
+    ],
+    "Hint": "血紅素與氧氣運輸相關。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-010",
+    "Subject_Area": "生物",
+    "Topic_Name": "養分獲得、物質運輸",
+    "Question_Type": "概念連結",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某人在劇烈運動後肌肉痠痛，老師說這與細胞在氧氣不足時產生乳酸有關。此現象最接近哪一種作用？",
+    "Options": {
+      "A": "只發生在葉綠體中的光合作用",
+      "B": "無氧呼吸或發酵相關過程",
+      "C": "消化道吸收維生素",
+      "D": "腎臟過濾尿液"
+    },
+    "Correct_Answer": "B",
+    "Solution_Steps": [
+      "氧氣不足時，部分細胞可透過無氧代謝產生能量並形成乳酸。",
+      "光合作用發生於植物含葉綠體細胞，與肌肉乳酸不同。"
+    ],
+    "Hint": "注意題幹中的「氧氣不足」。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-011",
+    "Subject_Area": "生物",
+    "Topic_Name": "協調與恆定",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "天氣炎熱時，人體大量流汗。此現象對維持恆定最主要的幫助為何？",
+    "Options": {
+      "A": "汗液蒸發帶走熱量，幫助降低體溫",
+      "B": "汗液讓血液停止流動",
+      "C": "汗液直接把氧氣送入細胞",
+      "D": "汗液能使骨骼變長"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "汗液蒸發需要吸收熱量，因此可降低皮膚表面溫度。",
+      "這是人體調節體溫的一種方式。"
+    ],
+    "Hint": "想想哪個器官或系統負責調節體內環境。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-012",
+    "Subject_Area": "生物",
+    "Topic_Name": "協調與恆定",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "當血糖濃度升高時，人體會分泌胰島素促進細胞吸收葡萄糖。此調節最主要是在維持什麼？",
+    "Options": {
+      "A": "體內環境恆定",
+      "B": "骨骼長度固定",
+      "C": "瞳孔大小固定",
+      "D": "外界溫度固定"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "胰島素可降低血糖，使血糖維持在適當範圍。",
+      "這屬於內分泌系統參與恆定調節。"
+    ],
+    "Hint": "想想哪個器官或系統負責調節體內環境。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-013",
+    "Subject_Area": "生物",
+    "Topic_Name": "協調與恆定",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "人看到強光時瞳孔縮小，看到暗處時瞳孔放大。此反應最主要由哪一系統協調？",
+    "Options": {
+      "A": "神經系統",
+      "B": "消化系統",
+      "C": "呼吸系統",
+      "D": "生殖系統"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "瞳孔反射是神經系統快速協調的反應。",
+      "其功能是調節進入眼睛的光量。"
+    ],
+    "Hint": "想想哪個器官或系統負責調節體內環境。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-014",
+    "Subject_Area": "生物",
+    "Topic_Name": "協調與恆定",
+    "Question_Type": "概念判斷",
+    "Difficulty": "精熟",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某人被尖物刺到手後立刻縮手，之後才感覺疼痛。下列解釋何者最合理？",
+    "Options": {
+      "A": "縮手反射可先由脊髓處理，反應速度較快",
+      "B": "痛覺不需神經傳導",
+      "C": "大腦完全不參與任何感覺",
+      "D": "肌肉會自行判斷尖物種類"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "反射作用可由脊髓先整合，使身體快速反應以避免傷害。",
+      "疼痛訊息仍會傳到大腦形成感覺。"
+    ],
+    "Hint": "想想哪個器官或系統負責調節體內環境。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-015",
+    "Subject_Area": "生物",
+    "Topic_Name": "協調與恆定",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "若腎臟功能受損，最可能直接影響下列何者？",
+    "Options": {
+      "A": "血液中含氮廢物與水分的調節",
+      "B": "胃中澱粉的消化",
+      "C": "肺泡內氧氣的產生",
+      "D": "耳朵對聲音的放大"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "腎臟可形成尿液，排出含氮廢物並調節水分與鹽分。",
+      "因此腎臟受損會影響體內恆定。"
+    ],
+    "Hint": "想想哪個器官或系統負責調節體內環境。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-016",
+    "Subject_Area": "生物",
+    "Topic_Name": "生殖、遺傳、演化",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "豌豆某性狀中，高莖為顯性 $T$，矮莖為隱性 $t$。若親代基因型為 $Tt\\times Tt$，子代出現矮莖的機率為何？",
+    "Options": {
+      "A": "$0$",
+      "B": "$\\frac{1}{4}$",
+      "C": "$\\frac{1}{2}$",
+      "D": "$\\frac{3}{4}$"
+    },
+    "Correct_Answer": "B",
+    "Solution_Steps": [
+      "親代皆為 $Tt$，子代可能為 $TT,Tt,Tt,tt$。",
+      "只有 $tt$ 表現矮莖，機率為 $\\frac{1}{4}$。"
+    ],
+    "Hint": "用棋盤格列出基因組合。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-017",
+    "Subject_Area": "生物",
+    "Topic_Name": "生殖、遺傳、演化",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某植物以扦插方式繁殖，子代通常與母株的性狀非常相似。此現象主要因為扦插屬於何種生殖方式？",
+    "Options": {
+      "A": "有性生殖，基因重新組合",
+      "B": "無性生殖，遺傳組成與母株相近",
+      "C": "減數分裂形成配子",
+      "D": "受精後形成種子"
+    },
+    "Correct_Answer": "B",
+    "Solution_Steps": [
+      "扦插是無性生殖，不需配子結合。",
+      "子代多由母株體細胞發育而來，遺傳組成通常相近。"
+    ],
+    "Hint": "扦插不需要精卵結合。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-018",
+    "Subject_Area": "生物",
+    "Topic_Name": "生殖、遺傳、演化",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某族群中，具有保護色的昆蟲較不易被天敵發現，因而留下較多後代。此現象最符合哪一概念？",
+    "Options": {
+      "A": "自然選擇",
+      "B": "細胞分裂",
+      "C": "消化作用",
+      "D": "蒸散作用"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "環境使具有有利性狀的個體較易存活並繁殖，屬自然選擇。",
+      "保護色不是個體想改就改，而是族群中有利性狀比例可能提高。"
+    ],
+    "Hint": "有利性狀提高存活與繁殖機會。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-019",
+    "Subject_Area": "生物",
+    "Topic_Name": "生殖、遺傳、演化",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "下列何者最可能增加族群中的遺傳變異？",
+    "Options": {
+      "A": "有性生殖時配子結合",
+      "B": "所有個體都用出芽生殖",
+      "C": "所有個體基因完全相同",
+      "D": "環境完全不變"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "有性生殖包含配子形成與受精，能造成基因重組。",
+      "遺傳變異是演化的重要材料。"
+    ],
+    "Hint": "有性生殖常帶來基因重新組合。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-020",
+    "Subject_Area": "生物",
+    "Topic_Name": "生殖、遺傳、演化",
+    "Question_Type": "概念判斷",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某島上鳥類的喙型與食物種類有關。乾旱年份大種子較多，粗大喙個體較易存活。若乾旱持續多代，最可能出現何種變化？",
+    "Options": {
+      "A": "族群中粗大喙比例增加",
+      "B": "所有鳥立刻變成同一種喙",
+      "C": "細胞不再需要能量",
+      "D": "種子大小不會影響生存"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "粗大喙個體在乾旱環境下較能取得食物，繁殖機會較高。",
+      "多代後族群中粗大喙性狀比例可能增加。"
+    ],
+    "Hint": "考慮哪種個體較容易留下後代。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-021",
+    "Subject_Area": "生物",
+    "Topic_Name": "生殖、遺傳、演化",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "人類受精後形成的受精卵，染色體數目會恢復為體細胞的數目。其原因為何？",
+    "Options": {
+      "A": "精子與卵各提供一半染色體",
+      "B": "受精時染色體全部消失",
+      "C": "卵不含遺傳物質",
+      "D": "精子提供所有細胞質與養分"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "配子經減數分裂形成，染色體數目為體細胞的一半。",
+      "精子與卵結合後，染色體數目恢復。"
+    ],
+    "Hint": "精子和卵各帶一半遺傳資訊。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-022",
+    "Subject_Area": "生物",
+    "Topic_Name": "生殖、遺傳、演化",
+    "Question_Type": "概念判斷",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "抗生素使用不當可能使抗藥性細菌比例增加。下列解釋何者最合理？",
+    "Options": {
+      "A": "抗生素會選汰不具抗藥性的細菌，使抗藥性細菌較易留下",
+      "B": "所有細菌遇抗生素都立刻變成抗藥性",
+      "C": "抗生素可促進人體細胞變成細菌",
+      "D": "抗藥性與遺傳無關"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "族群中若本來有少數抗藥性細菌，抗生素會使不具抗藥性的細菌較難存活。",
+      "抗藥性細菌存活並繁殖，使比例上升。"
+    ],
+    "Hint": "這是自然選擇的生活例子。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-023",
+    "Subject_Area": "生物",
+    "Topic_Name": "生態圈",
+    "Question_Type": "圖表判讀",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": "BIO-G2",
+    "Passage": "題組資料：某草原食物網如附圖。能量流向為：草 → 兔、草 → 蚱蜢、草 → 鼠；兔與蚱蜢可被蛇捕食，鼠可被鷹捕食，蛇也可被鷹捕食。箭頭代表能量流動方向。",
+    "Question": "根據題組食物網，若草的數量因乾旱大量減少，最可能先受到影響的是哪一類生物？",
+    "Options": {
+      "A": "直接以草為食的兔、蚱蜢、鼠",
+      "B": "只吃蛇的鷹，且其他生物完全不受影響",
+      "C": "分解者會完全消失",
+      "D": "草會因被吃得少而立刻增加到原本數量"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "草是生產者，兔、蚱蜢、鼠直接以草為食。",
+      "草大量減少時，初級消費者最先受食物不足影響。"
+    ],
+    "Hint": "先找誰直接吃草。",
+    "Image_Requirement": {
+      "Need_Image": true,
+      "Past_Exam_Reference": "自製仿會考自然科圖表",
+      "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
+      "Local_Image": "./assets/img/science/bio_food_web.svg",
+      "Alt_Text": "草原食物網"
+    }
+  },
+  {
+    "id": "BIO-024",
+    "Subject_Area": "生物",
+    "Topic_Name": "生態圈",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": "BIO-G2",
+    "Passage": "題組資料：某草原食物網如附圖。能量流向為：草 → 兔、草 → 蚱蜢、草 → 鼠；兔與蚱蜢可被蛇捕食，鼠可被鷹捕食，蛇也可被鷹捕食。箭頭代表能量流動方向。",
+    "Question": "承上題，下列何者是此食物網中的生產者？",
+    "Options": {
+      "A": "草",
+      "B": "兔",
+      "C": "蛇",
+      "D": "鷹"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "生產者能行光合作用製造有機養分。",
+      "此食物網中草為植物，是生產者。"
+    ],
+    "Hint": "生產者通常是植物或藻類。",
+    "Image_Requirement": {
+      "Need_Image": true,
+      "Past_Exam_Reference": "自製仿會考自然科圖表",
+      "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
+      "Local_Image": "./assets/img/science/bio_food_web.svg",
+      "Alt_Text": "草原食物網"
+    }
+  },
+  {
+    "id": "BIO-025",
+    "Subject_Area": "生物",
+    "Topic_Name": "生態圈",
+    "Question_Type": "概念連結",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某湖泊因工廠排放含氮、磷廢水，藻類大量繁殖，之後魚群死亡。最合理的因果關係為何？",
+    "Options": {
+      "A": "藻類死亡分解耗氧，使水中溶氧下降",
+      "B": "氮、磷會直接變成魚的天敵",
+      "C": "藻類越多，水中氧氣一定越多且不會變化",
+      "D": "魚群死亡與水質無關"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "營養鹽過多可能造成優養化，藻類大量繁殖。",
+      "藻類死亡後被分解者分解，消耗水中氧氣，使魚類缺氧。"
+    ],
+    "Hint": "注意「大量繁殖後死亡分解」會消耗氧氣。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "BIO-026",
+    "Subject_Area": "生物",
+    "Topic_Name": "生態圈",
+    "Question_Type": "概念判斷",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某保育區移除外來種魚類後，原生水生昆蟲數量回升。此例最能說明什麼？",
+    "Options": {
+      "A": "外來種可能改變原有食物網與族群平衡",
+      "B": "所有外來種都能提高生物多樣性",
+      "C": "原生種一定不會影響環境",
+      "D": "生態系不會受到物種改變影響"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "外來種可能捕食、競爭或改變棲地，影響原生種。",
+      "移除後原生昆蟲回升，表示外來魚曾造成壓力。"
+    ],
+    "Hint": "外來種可能造成競爭或捕食壓力。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-001",
+    "Subject_Area": "理化",
+    "Topic_Name": "物質與世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "量筒中原有 $40$ mL 水，放入一顆石塊後讀數變為 $55$ mL。若石塊質量為 $45$ g，石塊密度為何？",
+    "Options": {
+      "A": "$1.0\\ \\text{g/cm}^3$",
+      "B": "$2.0\\ \\text{g/cm}^3$",
+      "C": "$3.0\\ \\text{g/cm}^3$",
+      "D": "$4.0\\ \\text{g/cm}^3$"
+    },
+    "Correct_Answer": "C",
+    "Solution_Steps": [
+      "石塊體積為水位上升量 $55-40=15$ mL，即 $15\\ \\text{cm}^3$。",
+      "密度 $=45\\div15=3.0\\ \\text{g/cm}^3$。"
+    ],
+    "Hint": "體積可由排水量求得。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-002",
+    "Subject_Area": "理化",
+    "Topic_Name": "物質與世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "小華用天平測量燒杯與液體總質量，先量空燒杯為 $80$ g，再加入液體後為 $128$ g。若液體體積為 $60$ mL，液體密度為何？",
+    "Options": {
+      "A": "$0.6\\ \\text{g/mL}$",
+      "B": "$0.8\\ \\text{g/mL}$",
+      "C": "$1.2\\ \\text{g/mL}$",
+      "D": "$2.1\\ \\text{g/mL}$"
+    },
+    "Correct_Answer": "B",
+    "Solution_Steps": [
+      "液體質量為 $128-80=48$ g。",
+      "密度 $=48\\div60=0.8\\ \\text{g/mL}$。"
+    ],
+    "Hint": "先扣掉容器質量。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-003",
+    "Subject_Area": "理化",
+    "Topic_Name": "物質與世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "下列哪一項最適合用來判斷一塊未知固體是否為純物質？",
+    "Options": {
+      "A": "只看顏色是否均勻",
+      "B": "測量其熔點是否固定",
+      "C": "聞氣味是否刺鼻",
+      "D": "看是否能被磁鐵吸引"
+    },
+    "Correct_Answer": "B",
+    "Solution_Steps": [
+      "純物質通常具有固定熔點或沸點。",
+      "顏色、氣味、磁性不一定能判斷是否為純物質。"
+    ],
+    "Hint": "純物質常有固定物理性質。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-004",
+    "Subject_Area": "理化",
+    "Topic_Name": "物質與世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某液體加熱時，在固定溫度持續沸騰一段時間。此現象最能支持哪一推論？",
+    "Options": {
+      "A": "此液體可能是純物質",
+      "B": "此液體一定是混合物",
+      "C": "液體在沸騰時溫度必定快速上升",
+      "D": "沸騰時沒有能量轉換"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "純物質沸騰時溫度可維持固定，吸收的熱用於狀態改變。",
+      "混合物沸點可能不固定。"
+    ],
+    "Hint": "狀態改變時溫度可能暫時不變。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-005",
+    "Subject_Area": "理化",
+    "Topic_Name": "物質與世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "下列何者屬於化學變化？",
+    "Options": {
+      "A": "冰塊融化",
+      "B": "食鹽溶於水",
+      "C": "鐵釘生鏽",
+      "D": "玻璃杯破裂"
+    },
+    "Correct_Answer": "C",
+    "Solution_Steps": [
+      "鐵生鏽會產生新物質，屬化學變化。",
+      "融化、溶解、破裂通常未產生新物質，較接近物理變化。"
+    ],
+    "Hint": "化學變化重點是產生新物質。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-006",
+    "Subject_Area": "理化",
+    "Topic_Name": "物質與世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "空氣可視為混合物，最主要原因為何？",
+    "Options": {
+      "A": "空氣由多種氣體組成且比例可變",
+      "B": "空氣沒有質量",
+      "C": "空氣只有氧氣一種物質",
+      "D": "空氣不能被壓縮"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "空氣含氮氣、氧氣、二氧化碳、水蒸氣等多種成分。",
+      "混合物由多種物質組成，比例可不固定。"
+    ],
+    "Hint": "空氣不是單一物質。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-007",
+    "Subject_Area": "理化",
+    "Topic_Name": "物質與世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某學生把糖水蒸乾後留下白色固體。此方法主要利用何種性質差異分離混合物？",
+    "Options": {
+      "A": "沸點或揮發性差異",
+      "B": "磁性差異",
+      "C": "顏色差異",
+      "D": "導電性差異"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "水較容易蒸發，糖不易隨水蒸氣逸出。",
+      "蒸發分離利用成分揮發性或沸點差異。"
+    ],
+    "Hint": "想想水和糖誰較容易變成氣體。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-008",
+    "Subject_Area": "理化",
+    "Topic_Name": "物質與世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某粉末可完全溶於水，過濾後濾紙上沒有殘留固體。若要從溶液中取回粉末，較適合的方法為何？",
+    "Options": {
+      "A": "蒸發水分",
+      "B": "用磁鐵吸引",
+      "C": "再過濾一次",
+      "D": "加入沙子"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "溶解的物質會通過濾紙，過濾無法分離溶質。",
+      "蒸發水分可使溶質留下。"
+    ],
+    "Hint": "過濾只能分離不溶固體。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-009",
+    "Subject_Area": "理化",
+    "Topic_Name": "物質與世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "同體積的甲、乙兩液體，甲質量較大。若只根據這項資料，下列何者正確？",
+    "Options": {
+      "A": "甲密度較大",
+      "B": "乙密度較大",
+      "C": "兩者密度相同",
+      "D": "無法比較密度，因為沒有體積"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "密度為質量除以體積。",
+      "同體積下質量越大，密度越大。"
+    ],
+    "Hint": "體積相同時比較質量即可。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-010",
+    "Subject_Area": "理化",
+    "Topic_Name": "物質與世界",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某固體在水中下沉，在酒精中也下沉。下列推論何者最合理？",
+    "Options": {
+      "A": "固體密度大於水與酒精",
+      "B": "固體密度小於水與酒精",
+      "C": "固體一定會溶於水",
+      "D": "固體沒有質量"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "物體在液體中下沉，通常表示其密度大於該液體。",
+      "在水與酒精中都下沉，代表密度大於兩者。"
+    ],
+    "Hint": "浮沉與密度大小有關。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-011",
+    "Subject_Area": "理化",
+    "Topic_Name": "反應與平衡",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "小組將鎂帶燃燒後得到白色粉末，總質量比原鎂帶增加。最合理原因為何？",
+    "Options": {
+      "A": "鎂與空氣中的氧結合形成氧化鎂",
+      "B": "鎂燃燒時質量憑空增加",
+      "C": "白色粉末是鎂蒸發後凝結",
+      "D": "燃燒後不遵守質量守恆"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "鎂燃燒會與氧氣反應生成氧化鎂。",
+      "若未把氧氣列入反應物，會誤以為質量增加。"
+    ],
+    "Hint": "反應物可能包含空氣中的氧氣。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-012",
+    "Subject_Area": "理化",
+    "Topic_Name": "反應與平衡",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "在密閉容器中加熱碳酸鈣分解產生氧化鈣與二氧化碳。若容器不漏氣，反應前後總質量如何？",
+    "Options": {
+      "A": "增加",
+      "B": "減少",
+      "C": "不變",
+      "D": "先增加後消失"
+    },
+    "Correct_Answer": "C",
+    "Solution_Steps": [
+      "密閉系統中反應物與生成物總質量守恆。",
+      "雖有氣體生成，但沒有逸散，因此總質量不變。"
+    ],
+    "Hint": "密閉容器是關鍵。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-013",
+    "Subject_Area": "理化",
+    "Topic_Name": "反應與平衡",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某學生要比較鹽酸與鎂反應速率，最適合觀察哪一項變化？",
+    "Options": {
+      "A": "單位時間內產生氣泡的快慢",
+      "B": "鎂片的顏色是否漂亮",
+      "C": "燒杯外形是否相同",
+      "D": "鹽酸標籤字體大小"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "鎂與鹽酸反應會產生氫氣，氣泡產生速率可反映反應速率。",
+      "其餘選項與反應速率關係不直接。"
+    ],
+    "Hint": "找可以量化反應進行快慢的現象。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-014",
+    "Subject_Area": "理化",
+    "Topic_Name": "反應與平衡",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "酸性溶液加入紫色高麗菜汁後呈紅色，鹼性溶液呈綠色。某未知液滴入後呈綠色，最合理推論為何？",
+    "Options": {
+      "A": "未知液偏酸性",
+      "B": "未知液偏鹼性",
+      "C": "未知液一定是純水",
+      "D": "未知液一定不能導電"
+    },
+    "Correct_Answer": "B",
+    "Solution_Steps": [
+      "題幹給定鹼性溶液使高麗菜汁呈綠色。",
+      "未知液呈綠色，表示偏鹼性。"
+    ],
+    "Hint": "根據指示劑顏色判斷酸鹼性。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-015",
+    "Subject_Area": "理化",
+    "Topic_Name": "反應與平衡",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "將稀鹽酸加入碳酸鈣粉末會產生氣泡。若改用較細的碳酸鈣粉末，其他條件相同，反應通常會如何？",
+    "Options": {
+      "A": "反應變快，因為接觸面積增加",
+      "B": "反應變慢，因為質量守恆失效",
+      "C": "不會產生氣體",
+      "D": "酸會變成鹼"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "粉末越細，與酸接觸面積越大。",
+      "接觸面積增加通常使反應速率加快。"
+    ],
+    "Hint": "影響反應速率的因素包含接觸面積。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-016",
+    "Subject_Area": "理化",
+    "Topic_Name": "反應與平衡",
+    "Question_Type": "概念判斷",
+    "Difficulty": "精熟",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某學生把酚酞滴入肥皂水中呈粉紅色，再滴入食醋後顏色逐漸變淡。下列解釋何者最合理？",
+    "Options": {
+      "A": "食醋使溶液酸性增強，酚酞在酸性或中性較不呈粉紅",
+      "B": "食醋使肥皂水溫度降到絕對零度",
+      "C": "酚酞只會檢測金屬",
+      "D": "肥皂水一定是強酸"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "酚酞在鹼性溶液中常呈粉紅色，酸化後顏色變淡或無色。",
+      "食醋含醋酸，可中和部分鹼性。"
+    ],
+    "Hint": "酚酞粉紅常表示鹼性。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-017",
+    "Subject_Area": "理化",
+    "Topic_Name": "反應與平衡",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某化學反應式為 $2H_2+O_2\\rightarrow2H_2O$。此反應式前的係數主要表示什麼？",
+    "Options": {
+      "A": "反應粒子數的比例",
+      "B": "每個原子的顏色",
+      "C": "物質密度大小",
+      "D": "反應一定不放熱"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "化學反應式係數表示反應物與生成物粒子數或莫耳數的比例。",
+      "此式表示氫氣與氧氣以2:1反應生成水。"
+    ],
+    "Hint": "係數是反應比例。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-018",
+    "Subject_Area": "理化",
+    "Topic_Name": "反應與平衡",
+    "Question_Type": "概念判斷",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "若要設計實驗比較溫度對反應速率的影響，下列何者最恰當？",
+    "Options": {
+      "A": "只改變溫度，其他如濃度、體積、反應物大小盡量相同",
+      "B": "同時改變溫度、濃度與容器大小",
+      "C": "只觀察不同顏色容器",
+      "D": "不記錄時間"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "探究某一變因時需控制其他變因。",
+      "若同時改變多個變因，無法判斷速率改變來自哪個因素。"
+    ],
+    "Hint": "實驗設計重點是控制變因。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-019",
+    "Subject_Area": "理化",
+    "Topic_Name": "生活中的化學",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "廚房油污不易用清水洗掉，但加入洗碗精後較容易洗淨。主要原因為何？",
+    "Options": {
+      "A": "洗碗精分子可同時與油和水作用，幫助油污分散",
+      "B": "洗碗精會把油變成鐵",
+      "C": "水分子完全不會流動",
+      "D": "油污遇洗碗精質量消失"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "界面活性劑分子具有親水端與親油端，可使油污乳化分散。",
+      "油污不是憑空消失，而是較容易被水帶走。"
+    ],
+    "Hint": "洗碗精可乳化油污。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-020",
+    "Subject_Area": "理化",
+    "Topic_Name": "生活中的化學",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "塑膠吸管不易在自然環境中快速分解，因此大量使用會造成環境問題。下列作法何者較符合減塑精神？",
+    "Options": {
+      "A": "使用可重複清洗的吸管或不使用吸管",
+      "B": "把吸管剪碎丟入河川",
+      "C": "用完後直接埋在沙灘",
+      "D": "增加一次性塑膠用量"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "減少一次性塑膠使用與重複使用能降低廢棄物。",
+      "剪碎或掩埋不代表消失，仍可能造成污染。"
+    ],
+    "Hint": "減塑重點是減少一次性使用。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-021",
+    "Subject_Area": "理化",
+    "Topic_Name": "生活中的化學",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "鋁箔常用於包裝食物，主要利用鋁的哪一項性質？",
+    "Options": {
+      "A": "延展性佳且可阻隔部分光與空氣",
+      "B": "一定會溶於所有食物",
+      "C": "完全不導熱",
+      "D": "常溫下會自燃"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "鋁具有延展性，可製成薄片，且可阻隔光與空氣。",
+      "鋁也具導熱性，並非完全不導熱。"
+    ],
+    "Hint": "包裝材料需要可加工與隔絕外界。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-022",
+    "Subject_Area": "理化",
+    "Topic_Name": "生活中的化學",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某同學把乾燥劑放在餅乾盒中，主要目的為何？",
+    "Options": {
+      "A": "吸收水氣，降低餅乾受潮機會",
+      "B": "產生氧氣讓餅乾膨脹",
+      "C": "把餅乾變成金屬",
+      "D": "提高盒內光照"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "乾燥劑可吸收水氣，降低濕度。",
+      "餅乾受潮與水分有關。"
+    ],
+    "Hint": "乾燥劑與水氣有關。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-023",
+    "Subject_Area": "理化",
+    "Topic_Name": "生活中的化學",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "鐵門塗油漆可減少生鏽，主要是因為油漆能做什麼？",
+    "Options": {
+      "A": "隔絕鐵與水、氧氣接觸",
+      "B": "使鐵變成黃金",
+      "C": "增加鐵與鹽水接觸",
+      "D": "使鐵完全不具質量"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "鐵生鏽需要氧氣與水分參與。",
+      "油漆形成保護層，可降低接觸機會。"
+    ],
+    "Hint": "生鏽需要水與氧氣。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-024",
+    "Subject_Area": "理化",
+    "Topic_Name": "生活中的化學",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "天然氣主要成分之一為甲烷，燃燒完全時主要產物為二氧化碳與水。下列何者是燃燒時需要的反應物？",
+    "Options": {
+      "A": "氧氣",
+      "B": "氦氣",
+      "C": "食鹽",
+      "D": "沙子"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "燃燒通常需要可燃物與氧氣。",
+      "甲烷完全燃燒會與氧氣反應生成二氧化碳和水。"
+    ],
+    "Hint": "燃燒三要素包含氧氣。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-025",
+    "Subject_Area": "理化",
+    "Topic_Name": "生活中的化學",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "食品包裝中常充入氮氣，主要目的為何？",
+    "Options": {
+      "A": "降低氧氣含量，減少氧化變質",
+      "B": "讓食品變成液體",
+      "C": "使包裝袋內完全沒有氣體",
+      "D": "提供微生物更多氧氣"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "氮氣化學性質較不活潑，充入包裝可降低氧氣比例。",
+      "可減少油脂氧化或食品變質。"
+    ],
+    "Hint": "氮氣常用來降低氧化機會。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-026",
+    "Subject_Area": "理化",
+    "Topic_Name": "生活中的化學",
+    "Question_Type": "概念判斷",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "用酒精消毒時，過高濃度的酒精反而可能使蛋白質快速凝固形成保護層。一般常用約 $75\\%$ 酒精，主要是因為何者？",
+    "Options": {
+      "A": "適當濃度較能滲入並使微生物蛋白質變性",
+      "B": "濃度越低一定越有效",
+      "C": "酒精只對金屬有效",
+      "D": "酒精消毒與水分完全無關"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "約75%酒精可較有效使蛋白質變性並滲入微生物。",
+      "不是濃度越高越好。"
+    ],
+    "Hint": "消毒效果與濃度有關。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-027",
+    "Subject_Area": "理化",
+    "Topic_Name": "生活中的化學",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "玻璃、陶瓷常用於餐具，主要原因之一為何？",
+    "Options": {
+      "A": "耐熱且化學性質較安定",
+      "B": "遇熱必定爆炸",
+      "C": "會大量溶出糖分",
+      "D": "一定會被磁鐵吸引"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "玻璃與陶瓷通常耐熱、硬且化學性質較安定，適合餐具。",
+      "其他選項與材料性質不符。"
+    ],
+    "Hint": "餐具材料需要安全且穩定。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-028",
+    "Subject_Area": "理化",
+    "Topic_Name": "光、波、熱",
+    "Question_Type": "圖表判讀",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": "PHY-G1",
+    "Passage": "題組資料：某純物質加熱曲線如附圖。溫度隨時間上升，但在某些時間區段維持固定，分別代表熔化與沸騰。",
+    "Question": "根據題組加熱曲線，物質在水平平台區段時，持續吸熱但溫度不變，最合理原因為何？",
+    "Options": {
+      "A": "吸收的熱用於狀態改變",
+      "B": "物質不再吸收能量",
+      "C": "溫度計失效且物質消失",
+      "D": "所有分子停止運動"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "純物質在熔化或沸騰時，吸收的熱主要用於改變狀態。",
+      "因此溫度可維持不變一段時間。"
+    ],
+    "Hint": "水平平台通常代表狀態改變。",
+    "Image_Requirement": {
+      "Need_Image": true,
+      "Past_Exam_Reference": "自製仿會考自然科圖表",
+      "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
+      "Local_Image": "./assets/img/science/phy_heating_curve.svg",
+      "Alt_Text": "純物質加熱曲線"
+    }
+  },
+  {
+    "id": "PHY-029",
+    "Subject_Area": "理化",
+    "Topic_Name": "光、波、熱",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "在安靜走廊盡頭拍手，能聽到回聲，主要與聲波的哪一特性有關？",
+    "Options": {
+      "A": "反射",
+      "B": "折射後變成光",
+      "C": "真空中傳播最快",
+      "D": "只會沿金屬傳播"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "聲波遇到牆面等障礙物可反射形成回聲。",
+      "聲音需要介質傳播，不能在真空中傳播。"
+    ],
+    "Hint": "回聲是聲音反彈回來。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-030",
+    "Subject_Area": "理化",
+    "Topic_Name": "光、波、熱",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "把鉛筆斜插入水中，看起來像折斷了。此現象主要是光的哪一性質造成？",
+    "Options": {
+      "A": "折射",
+      "B": "蒸發",
+      "C": "摩擦",
+      "D": "磁化"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "光從空氣進入水中時速度改變，傳播方向改變，產生折射。",
+      "鉛筆實際上沒有折斷。"
+    ],
+    "Hint": "光通過不同介質方向可能改變。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-031",
+    "Subject_Area": "理化",
+    "Topic_Name": "光、波、熱",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "冬天穿深色衣服在陽光下感覺較暖，主要原因為何？",
+    "Options": {
+      "A": "深色表面通常吸收較多輻射能",
+      "B": "深色衣服會產生氧氣",
+      "C": "深色衣服使空氣完全不流動",
+      "D": "深色衣服沒有質量"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "深色物體通常較容易吸收光與熱輻射。",
+      "因此在陽光下可能較容易升溫。"
+    ],
+    "Hint": "想想顏色與吸收光的關係。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-032",
+    "Subject_Area": "理化",
+    "Topic_Name": "光、波、熱",
+    "Question_Type": "概念判斷",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "保溫瓶內壁常做成亮面，主要是為了減少哪一種熱傳遞？",
+    "Options": {
+      "A": "熱輻射",
+      "B": "聲音折射",
+      "C": "化學反應",
+      "D": "電流磁效應"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "亮面可反射熱輻射，減少能量散失。",
+      "保溫瓶也會透過真空層降低傳導與對流。"
+    ],
+    "Hint": "亮面與反射輻射有關。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-033",
+    "Subject_Area": "理化",
+    "Topic_Name": "光、波、熱",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某學生敲擊音叉後，把音叉靠近水面，水面濺起小水花。此現象最能說明聲音與何者有關？",
+    "Options": {
+      "A": "物體振動",
+      "B": "物體燃燒",
+      "C": "液體酸鹼性",
+      "D": "光合作用"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "發聲體會振動，音叉振動使水面受擾動而濺起水花。",
+      "此現象支持聲音由振動產生。"
+    ],
+    "Hint": "音叉發聲時會快速振動。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-034",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "小明推箱子，施力方向與箱子移動方向相同。若施力 $50$ N，箱子移動 $4$ m，所做的功為多少？",
+    "Options": {
+      "A": "$12.5$ J",
+      "B": "$54$ J",
+      "C": "$200$ J",
+      "D": "$400$ J"
+    },
+    "Correct_Answer": "C",
+    "Solution_Steps": [
+      "功 $W=F\\times s$。",
+      "$W=50\\times4=200$ J。"
+    ],
+    "Hint": "力與位移同方向時直接相乘。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-035",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "兩顆同質量球從不同高度落下，不計空氣阻力。哪一顆落地前瞬間動能較大？",
+    "Options": {
+      "A": "高度較高者",
+      "B": "高度較低者",
+      "C": "兩者一定相同",
+      "D": "高度不影響動能"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "高度越高，重力位能越大。",
+      "不計空氣阻力時，較多位能可轉換為較大動能。"
+    ],
+    "Hint": "重力位能與高度有關。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-036",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "同一輛腳踏車在水平路面上等速前進，表示它所受合力如何？",
+    "Options": {
+      "A": "合力為零",
+      "B": "合力向前且越來越大",
+      "C": "合力向後且越來越大",
+      "D": "沒有重力"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "等速直線運動代表速度大小與方向不變。",
+      "依牛頓第一定律，合力為零。"
+    ],
+    "Hint": "等速不等於沒有力，而是合力為零。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-037",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "小球從斜面頂端滾下，若摩擦很小，下列能量轉換何者最主要？",
+    "Options": {
+      "A": "重力位能轉換為動能",
+      "B": "動能轉換為化學能",
+      "C": "聲能轉換為核能",
+      "D": "熱能全部轉為重力位能"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "球高度下降，重力位能減少。",
+      "速度增加，動能增加。"
+    ],
+    "Hint": "高度下降而速度增加。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-038",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "汽車緊急煞車時，人會向前傾。此現象主要與哪一概念有關？",
+    "Options": {
+      "A": "慣性",
+      "B": "浮力",
+      "C": "折射",
+      "D": "酸鹼中和"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "車突然減速時，人體仍傾向維持原本向前運動狀態。",
+      "這是慣性表現。"
+    ],
+    "Hint": "物體會維持原本運動狀態。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-039",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "在同一水平桌面上推兩個物體，若施力相同，質量較大的物體加速度較小。此現象最符合哪一關係？",
+    "Options": {
+      "A": "$F=ma$",
+      "B": "$V=IR$",
+      "C": "$pH=7$",
+      "D": "$W=mg$"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "牛頓第二定律 $F=ma$，同力作用下質量越大，加速度越小。",
+      "其他公式與此現象無關。"
+    ],
+    "Hint": "施力、質量、加速度之間的關係。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-040",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "兩人拔河時，甲拉乙的力與乙拉甲的力大小如何？",
+    "Options": {
+      "A": "大小相等、方向相反",
+      "B": "甲一定比較大",
+      "C": "乙一定比較大",
+      "D": "兩力方向相同"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "作用力與反作用力大小相等、方向相反，作用在不同物體上。",
+      "拔河勝負與地面摩擦力等因素也有關。"
+    ],
+    "Hint": "作用力與反作用力成對出現。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-041",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "一物體受力但沒有位移，例如推牆牆不動，對牆所做的功為何？",
+    "Options": {
+      "A": "$0$",
+      "B": "一定為正",
+      "C": "一定為負",
+      "D": "無限大"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "功與力及力方向位移有關。",
+      "牆沒有位移，因此對牆做功為 $0$。"
+    ],
+    "Hint": "沒有位移就沒有機械功。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-042",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "滑梯表面越光滑，小孩下滑時速度增加越明顯。主要因為哪一阻力變小？",
+    "Options": {
+      "A": "摩擦力",
+      "B": "重力",
+      "C": "浮力",
+      "D": "彈力必定為零"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "表面光滑使摩擦力較小。",
+      "較少機械能轉為熱，速度增加較明顯。"
+    ],
+    "Hint": "粗糙程度影響摩擦。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-043",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "下列哪一個物體具有較大的重力位能？",
+    "Options": {
+      "A": "同質量、位於較高位置的物體",
+      "B": "同質量、位於較低位置的物體",
+      "C": "完全靜止且在地面的物體一定最大",
+      "D": "重力位能與高度無關"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "重力位能與質量、重力加速度、高度有關。",
+      "同質量下高度越高，重力位能越大。"
+    ],
+    "Hint": "比較同質量時看高度。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-044",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "圖表判讀",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "如附圖，距離－時間圖中有一段水平線。這段水平線代表物體處於何種狀態？",
+    "Options": {
+      "A": "靜止不動",
+      "B": "加速向前",
+      "C": "等速遠離且速度最大",
+      "D": "瞬間消失"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "距離－時間圖的水平線表示距離不隨時間改變。",
+      "因此物體在該時間區段靜止。"
+    ],
+    "Hint": "距離不變代表位置沒有改變。",
+    "Image_Requirement": {
+      "Need_Image": true,
+      "Past_Exam_Reference": "自製仿會考自然科圖表",
+      "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
+      "Local_Image": "./assets/img/science/phy_motion_graph.svg",
+      "Alt_Text": "距離時間圖"
+    }
+  },
+  {
+    "id": "PHY-045",
+    "Subject_Area": "理化",
+    "Topic_Name": "功、能、力與運動",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "同一彈簧在彈性限度內，掛上較重砝碼時伸長量較大。此現象最能說明什麼？",
+    "Options": {
+      "A": "彈力與形變量有關",
+      "B": "砝碼越重越沒有重力",
+      "C": "彈簧不受力也會無限伸長",
+      "D": "伸長量與受力完全無關"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "在彈性限度內，彈簧伸長量與受力大小有關。",
+      "掛較重砝碼時受力較大，伸長較多。"
+    ],
+    "Hint": "彈簧伸長是力造成形變。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-046",
+    "Subject_Area": "理化",
+    "Topic_Name": "電與磁",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某電路中電阻為 $10\\ \\Omega$，通過電流為 $0.5$ A。電阻兩端電壓為何？",
+    "Options": {
+      "A": "$0.05$ V",
+      "B": "$5$ V",
+      "C": "$10.5$ V",
+      "D": "$20$ V"
+    },
+    "Correct_Answer": "B",
+    "Solution_Steps": [
+      "歐姆定律 $V=IR$。",
+      "$V=0.5\\times10=5$ V。"
+    ],
+    "Hint": "電壓等於電流乘電阻。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-047",
+    "Subject_Area": "理化",
+    "Topic_Name": "電與磁",
+    "Question_Type": "圖表判讀",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "如附圖，兩個電阻並聯接在電池上。若其中一個支路斷路，另一支路的燈泡通常會如何？",
+    "Options": {
+      "A": "仍可能發亮，因為仍有完整迴路",
+      "B": "一定也熄滅，因為並聯只有一條路",
+      "C": "電池立刻變成磁鐵",
+      "D": "電流不需閉合迴路"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "並聯電路各支路相對獨立。",
+      "其中一支路斷路，另一支路若仍與電池形成閉合迴路，仍可能發亮。"
+    ],
+    "Hint": "並聯有多條電流路徑。",
+    "Image_Requirement": {
+      "Need_Image": true,
+      "Past_Exam_Reference": "自製仿會考自然科圖表",
+      "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
+      "Local_Image": "./assets/img/science/phy_circuit_parallel.svg",
+      "Alt_Text": "並聯電路圖"
+    }
+  },
+  {
+    "id": "PHY-048",
+    "Subject_Area": "理化",
+    "Topic_Name": "電與磁",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "電磁鐵的線圈匝數增加且電流不變時，通常會造成什麼結果？",
+    "Options": {
+      "A": "磁性增強",
+      "B": "磁性一定消失",
+      "C": "線圈變成絕緣體",
+      "D": "電流方向無法影響磁場"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "電磁鐵磁性與電流大小、線圈匝數等有關。",
+      "匝數增加通常使磁性增強。"
+    ],
+    "Hint": "電磁鐵強弱可由匝數或電流改變。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-049",
+    "Subject_Area": "理化",
+    "Topic_Name": "電與磁",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "家用電器並聯在插座上，主要優點為何？",
+    "Options": {
+      "A": "各電器可獨立運作且獲得相同電壓",
+      "B": "所有電器必須同時開關",
+      "C": "一個電器壞掉全部必定停用",
+      "D": "並聯電路沒有電壓"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "家庭用電多採並聯，使各支路可獨立控制。",
+      "各電器兩端可接近相同電壓。"
+    ],
+    "Hint": "想想家中電燈與電風扇可分開開關。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "PHY-050",
+    "Subject_Area": "理化",
+    "Topic_Name": "電與磁",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "指南針靠近通電導線時偏轉，最能說明什麼？",
+    "Options": {
+      "A": "電流會產生磁場",
+      "B": "磁場會使水沸騰",
+      "C": "導線必定沒有電阻",
+      "D": "指南針不受磁場影響"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "通電導線周圍會產生磁場，使指南針偏轉。",
+      "這是電流磁效應的證據。"
+    ],
+    "Hint": "指南針會受磁場影響。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-001",
+    "Subject_Area": "地科",
+    "Topic_Name": "水與陸地",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某地大量鋪設柏油路後，暴雨時積水變嚴重。最合理原因為何？",
+    "Options": {
+      "A": "不透水鋪面增加，地表逕流增加",
+      "B": "柏油能大量吸收雨水",
+      "C": "降雨不再受重力影響",
+      "D": "河流一定完全消失"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "柏油路不易讓水滲入地下。",
+      "入滲減少、地表逕流增加，可能造成積水。"
+    ],
+    "Hint": "思考水落到地面後能否滲入地下。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-002",
+    "Subject_Area": "地科",
+    "Topic_Name": "水與陸地",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "地下水被超量抽取可能造成地層下陷。主要原因為何？",
+    "Options": {
+      "A": "孔隙中水壓降低，沉積物被壓密",
+      "B": "地下水會把地層變成氣體",
+      "C": "抽水會增加岩石硬度",
+      "D": "地層下陷與地下水無關"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "地下水支撐部分沉積物孔隙。",
+      "過度抽取使孔隙壓力降低，沉積層壓密造成下陷。"
+    ],
+    "Hint": "地下水也能支撐地層孔隙。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-003",
+    "Subject_Area": "地科",
+    "Topic_Name": "水與陸地",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "山坡地若植被被移除，豪雨後更容易發生土石流。主要原因為何？",
+    "Options": {
+      "A": "根系固定土壤能力下降，逕流侵蝕增加",
+      "B": "植物根會製造土石流",
+      "C": "沒有植物就不會下雨",
+      "D": "土壤會自動變成岩漿"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "植物根系可固定土壤並減少沖刷。",
+      "植被移除後，坡面較易受雨水侵蝕而崩塌。"
+    ],
+    "Hint": "植物根系可穩定土壤。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-004",
+    "Subject_Area": "地科",
+    "Topic_Name": "水與陸地",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "河流上游常見 V 形谷，主要與哪一作用較有關？",
+    "Options": {
+      "A": "流水向下侵蝕",
+      "B": "海浪堆積珊瑚",
+      "C": "風力搬運冰山",
+      "D": "月球引力形成火山"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "上游坡度大，河水向下侵蝕作用明顯，形成 V 形谷。",
+      "下游則較常見側向侵蝕與堆積。"
+    ],
+    "Hint": "河流上游坡度通常較大。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-005",
+    "Subject_Area": "地科",
+    "Topic_Name": "天文",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "臺灣夏季白天通常比冬季長，主要原因為何？",
+    "Options": {
+      "A": "地球自轉軸傾斜且繞太陽公轉",
+      "B": "夏季地球停止自轉",
+      "C": "太陽夏天距離地球最近是唯一原因",
+      "D": "月球遮住地球造成白天變長"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "季節與晝夜長短變化主要由地軸傾斜與地球公轉造成。",
+      "距離太陽遠近不是臺灣季節主因。"
+    ],
+    "Hint": "季節與地軸傾斜有關。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-006",
+    "Subject_Area": "地科",
+    "Topic_Name": "天文",
+    "Question_Type": "圖表判讀",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "如附圖，陽光由左方照向地球，月球位於地球右側 B 位置。此時從地球看月亮最接近哪一月相？",
+    "Options": {
+      "A": "新月",
+      "B": "上弦月",
+      "C": "滿月",
+      "D": "下弦月"
+    },
+    "Correct_Answer": "C",
+    "Solution_Steps": [
+      "圖中太陽在左、月球在地球右，地球位於太陽與月球之間。",
+      "從地球看見月球被照亮的一面，接近滿月。"
+    ],
+    "Hint": "滿月時地球大致在太陽和月球中間。",
+    "Image_Requirement": {
+      "Need_Image": true,
+      "Past_Exam_Reference": "自製仿會考自然科圖表",
+      "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
+      "Local_Image": "./assets/img/science/earth_moon_phases.svg",
+      "Alt_Text": "日地月相對位置圖"
+    }
+  },
+  {
+    "id": "EAR-007",
+    "Subject_Area": "地科",
+    "Topic_Name": "天文",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "月食發生時，三者相對位置最接近何者？",
+    "Options": {
+      "A": "太陽－地球－月球",
+      "B": "太陽－月球－地球",
+      "C": "地球－太陽－月球",
+      "D": "月球－太陽－地球"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "月食是月球進入地球影子中。",
+      "因此地球位於太陽與月球之間。"
+    ],
+    "Hint": "月食時地球的影子落在月球上。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-008",
+    "Subject_Area": "地科",
+    "Topic_Name": "天文",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "若某地正午太陽高度角較大，地表單位面積接收太陽能通常如何？",
+    "Options": {
+      "A": "較多",
+      "B": "較少",
+      "C": "完全為零",
+      "D": "與角度無關"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "太陽高度角大時，光線較集中照射在地表。",
+      "單位面積接收能量較多，較容易升溫。"
+    ],
+    "Hint": "光線越直射，能量越集中。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-009",
+    "Subject_Area": "地科",
+    "Topic_Name": "天文",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "地球自轉造成的現象為何？",
+    "Options": {
+      "A": "晝夜交替",
+      "B": "一年四季主因",
+      "C": "月相週期唯一原因",
+      "D": "板塊張裂"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "地球自轉使不同地區交替面向太陽，形成晝夜。",
+      "四季主要與地軸傾斜及公轉有關。"
+    ],
+    "Hint": "一天一夜和自轉有關。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-010",
+    "Subject_Area": "地科",
+    "Topic_Name": "天文",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某星體看起來每天由東向西移動，主要是因為什麼？",
+    "Options": {
+      "A": "地球由西向東自轉造成的視運動",
+      "B": "所有星體真的繞地球轉一圈",
+      "C": "月球停止運動",
+      "D": "大氣完全沒有折射"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "地球由西向東自轉，使天體呈現由東向西的視運動。",
+      "這是觀察者在旋轉地球上的視覺效果。"
+    ],
+    "Hint": "視運動不一定代表天體真的那樣運動。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-011",
+    "Subject_Area": "地科",
+    "Topic_Name": "天文",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "潮汐現象主要受哪一因素影響最大？",
+    "Options": {
+      "A": "月球與太陽的引力",
+      "B": "地球內部岩漿顏色",
+      "C": "雲的形狀",
+      "D": "海水鹽度完全固定"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "潮汐主要由月球引力造成，太陽也有影響。",
+      "地球自轉使不同地區經歷漲退潮。"
+    ],
+    "Hint": "潮汐與天體引力有關。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-012",
+    "Subject_Area": "地科",
+    "Topic_Name": "板塊運動與地球構造",
+    "Question_Type": "圖表判讀",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "如附圖，兩板塊互相靠近，其中較密的海洋板塊隱沒到另一板塊下方。此邊界最可能形成何種地形或現象？",
+    "Options": {
+      "A": "海溝與地震活動",
+      "B": "新海洋地殼從中洋脊生成",
+      "C": "完全沒有地震",
+      "D": "大氣鋒面停滯"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "聚合邊界隱沒帶常形成海溝、火山弧與地震。",
+      "中洋脊是張裂性邊界。"
+    ],
+    "Hint": "板塊互相靠近通常是聚合邊界。",
+    "Image_Requirement": {
+      "Need_Image": true,
+      "Past_Exam_Reference": "自製仿會考自然科圖表",
+      "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
+      "Local_Image": "./assets/img/science/earth_plate_boundary.svg",
+      "Alt_Text": "聚合性板塊邊界與隱沒示意圖"
+    }
+  },
+  {
+    "id": "EAR-013",
+    "Subject_Area": "地科",
+    "Topic_Name": "板塊運動與地球構造",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "海底中洋脊兩側岩石年齡越遠離中軸越老，最支持哪一概念？",
+    "Options": {
+      "A": "海底擴張",
+      "B": "月食",
+      "C": "酸鹼中和",
+      "D": "光的折射"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "中洋脊產生新海洋地殼，隨板塊向兩側移動。",
+      "因此離中軸越遠的岩石越老。"
+    ],
+    "Hint": "新岩石在中洋脊形成。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-014",
+    "Subject_Area": "地科",
+    "Topic_Name": "板塊運動與地球構造",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "臺灣位於板塊交界附近，因此常發生地震。下列何者是地震發生的主要原因？",
+    "Options": {
+      "A": "岩層受力累積後突然錯動釋放能量",
+      "B": "太陽光照射地面",
+      "C": "海水蒸發變成雲",
+      "D": "植物行光合作用"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "板塊運動使岩層受力變形，能量累積。",
+      "當岩層破裂或錯動時釋放能量，形成地震波。"
+    ],
+    "Hint": "地震與岩層突然錯動有關。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-015",
+    "Subject_Area": "地科",
+    "Topic_Name": "板塊運動與地球構造",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "地震發生後，P 波通常比 S 波先到測站。主要原因為何？",
+    "Options": {
+      "A": "P 波速度較快",
+      "B": "S 波不會傳播",
+      "C": "P 波只能在空氣中傳播",
+      "D": "S 波是光波"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "P 波為縱波，傳播速度通常比 S 波快。",
+      "因此測站會先記錄到 P 波。"
+    ],
+    "Hint": "地震波到達時間差可估算震央距離。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-016",
+    "Subject_Area": "地科",
+    "Topic_Name": "板塊運動與地球構造",
+    "Question_Type": "圖表判讀",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "如附圖，岩層 A、B、C、D 被一條斷層切過。若斷層切穿所有岩層，下列推論何者合理？",
+    "Options": {
+      "A": "斷層形成時間晚於被切穿的岩層",
+      "B": "斷層一定最古老",
+      "C": "岩層一定同時形成",
+      "D": "斷層與岩層先後無法用切割關係推論"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "依切割關係，切穿其他構造的地質事件較晚發生。",
+      "斷層切穿岩層，表示斷層晚於這些岩層。"
+    ],
+    "Hint": "切穿者通常較年輕。",
+    "Image_Requirement": {
+      "Need_Image": true,
+      "Past_Exam_Reference": "自製仿會考自然科圖表",
+      "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
+      "Local_Image": "./assets/img/science/earth_rock_layers.svg",
+      "Alt_Text": "岩層與斷層切割關係圖"
+    }
+  },
+  {
+    "id": "EAR-017",
+    "Subject_Area": "地科",
+    "Topic_Name": "天氣",
+    "Question_Type": "圖表判讀",
+    "Difficulty": "精熟",
+    "stage": "advanced",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "如附圖，冷暖氣團勢力相當使鋒面停留在臺灣附近，連續降雨數日。此天氣系統最可能是什麼？",
+    "Options": {
+      "A": "滯留鋒",
+      "B": "颱風眼",
+      "C": "熱帶沙漠高壓",
+      "D": "海陸風"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "冷暖氣團勢力相當、鋒面移動緩慢，容易形成滯留鋒。",
+      "臺灣梅雨季常與滯留鋒有關。"
+    ],
+    "Hint": "梅雨常與滯留鋒有關。",
+    "Image_Requirement": {
+      "Need_Image": true,
+      "Past_Exam_Reference": "自製仿會考自然科圖表",
+      "AI_Draw_Prompt": "Create a clean black-and-white textbook-style scientific diagram or chart for a Taiwan junior-high CAP natural science exam. Use a white background, clear labels, simple lines, no decorations, and high readability.",
+      "Local_Image": "./assets/img/science/earth_weather_front.svg",
+      "Alt_Text": "臺灣附近滯留鋒示意圖"
+    }
+  },
+  {
+    "id": "EAR-018",
+    "Subject_Area": "地科",
+    "Topic_Name": "天氣",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "颱風接近時，氣壓通常會如何變化？",
+    "Options": {
+      "A": "逐漸降低，接近中心時較低",
+      "B": "完全不變",
+      "C": "一定升到最高",
+      "D": "與颱風距離無關"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "颱風是強烈低氣壓系統。",
+      "越接近中心氣壓通常越低。"
+    ],
+    "Hint": "颱風中心是低壓。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-019",
+    "Subject_Area": "地科",
+    "Topic_Name": "天氣",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "午後雷陣雨常發生在夏季午後，主要原因為何？",
+    "Options": {
+      "A": "地表受熱使暖濕空氣上升形成對流雲",
+      "B": "夜間地表完全不散熱",
+      "C": "月球引力把雲拉下來",
+      "D": "冷空氣永遠不下沉"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "夏季午後地表加熱強，暖濕空氣上升。",
+      "上升冷卻凝結形成積雨雲，可能帶來雷陣雨。"
+    ],
+    "Hint": "午後地表受熱強，對流旺盛。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-020",
+    "Subject_Area": "地科",
+    "Topic_Name": "天氣",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "氣象圖上等壓線越密集，通常代表該區域風速如何？",
+    "Options": {
+      "A": "較大",
+      "B": "較小",
+      "C": "一定無風",
+      "D": "只與溫度有關"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "等壓線密集表示氣壓梯度大。",
+      "氣壓差推動空氣流動，風速通常較大。"
+    ],
+    "Hint": "等壓線密集代表氣壓變化快。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-021",
+    "Subject_Area": "地科",
+    "Topic_Name": "天氣",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "冷鋒通過臺灣時，常見的天氣變化為何？",
+    "Options": {
+      "A": "氣溫下降，可能伴隨降雨",
+      "B": "氣溫必定快速升到最高",
+      "C": "所有雲立刻消失且無風",
+      "D": "海水停止蒸發"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "冷鋒通過時冷空氣取代暖空氣，氣溫常下降。",
+      "鋒面附近空氣抬升，可能造成降雨。"
+    ],
+    "Hint": "冷鋒的冷空氣會推進。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-022",
+    "Subject_Area": "地科",
+    "Topic_Name": "天氣",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "若某地連續幾天相對濕度高且風弱，污染物不易擴散。下列何者較可能發生？",
+    "Options": {
+      "A": "空氣品質變差",
+      "B": "污染物立刻消失",
+      "C": "雲量一定為零",
+      "D": "地震頻率增加"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "風弱使污染物不易被帶走，高濕度也可能使懸浮微粒影響更明顯。",
+      "因此空氣品質可能變差。"
+    ],
+    "Hint": "污染物擴散需要風與大氣混合。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-023",
+    "Subject_Area": "地科",
+    "Topic_Name": "永續發展",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "都市大量使用冷氣並排放廢熱，且綠地不足，可能造成哪一現象較明顯？",
+    "Options": {
+      "A": "都市熱島效應",
+      "B": "月食",
+      "C": "海底擴張",
+      "D": "地磁反轉"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "建築與柏油吸熱、廢熱排放、綠地不足都可能使都市較周邊溫暖。",
+      "此為都市熱島效應。"
+    ],
+    "Hint": "都市環境會影響局部氣溫。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  },
+  {
+    "id": "EAR-024",
+    "Subject_Area": "地科",
+    "Topic_Name": "永續發展",
+    "Question_Type": "概念判斷",
+    "Difficulty": "基礎",
+    "stage": "middle",
+    "Group_ID": null,
+    "Passage": "",
+    "Question": "某社區推動節能燈具、屋頂植栽與雨水回收。下列何者最能說明其目的？",
+    "Options": {
+      "A": "降低能源與水資源消耗，提升環境永續",
+      "B": "增加一次性垃圾",
+      "C": "讓所有生物消失",
+      "D": "使地球停止自轉"
+    },
+    "Correct_Answer": "A",
+    "Solution_Steps": [
+      "節能燈具降低用電，屋頂植栽可降溫，雨水回收可節約水資源。",
+      "這些措施符合永續發展。"
+    ],
+    "Hint": "永續措施通常同時考慮資源與環境。",
+    "Image_Requirement": {
+      "Need_Image": false,
+      "Past_Exam_Reference": null,
+      "AI_Draw_Prompt": null,
+      "Local_Image": null,
+      "Alt_Text": null
+    }
+  }
+];

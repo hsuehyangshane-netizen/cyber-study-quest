@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "EN-001",
+    "type": "單字詞彙",
+    "passage": "",
+    "question": "The weather is so _______ today. Let's go to the park and have a picnic.",
+    "options": {
+      "A": "terrible",
+      "B": "beautiful",
+      "C": "dark",
+      "D": "heavy"
+    },
+    "answer": "B",
+    "explanation": "後句說要去公園野餐，表示天氣很好，beautiful 最符合。terrible 是糟糕的；dark 是昏暗的；heavy 是重的。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-002",
+    "type": "單字詞彙",
+    "passage": "",
+    "question": "The noise from the street was so loud that I couldn't _______ on my homework.",
+    "options": {
+      "A": "focus",
+      "B": "practice",
+      "C": "remember",
+      "D": "choose"
+    },
+    "answer": "A",
+    "explanation": "focus on 是固定用法，表示專注於。街上噪音太大，所以無法專心寫作業。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-003",
+    "type": "單字詞彙",
+    "passage": "",
+    "question": "Please put the milk back in the fridge, or it will not stay _______.",
+    "options": {
+      "A": "fresh",
+      "B": "quiet",
+      "C": "angry",
+      "D": "careful"
+    },
+    "answer": "A",
+    "explanation": "milk 放回冰箱是為了保持新鮮，fresh 符合語意。quiet 安靜的；angry 生氣的；careful 小心的。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-004",
+    "type": "單字詞彙",
+    "passage": "",
+    "question": "The box is too _______ for one person to carry. Let's ask Jack to help.",
+    "options": {
+      "A": "heavy",
+      "B": "early",
+      "C": "safe",
+      "D": "bright"
+    },
+    "answer": "A",
+    "explanation": "需要找人幫忙搬箱子，表示箱子太重，heavy 正確。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-005",
+    "type": "單字詞彙",
+    "passage": "",
+    "question": "Mia was _______ because she left her report at home and the class began in five minutes.",
+    "options": {
+      "A": "worried",
+      "B": "famous",
+      "C": "popular",
+      "D": "delicious"
+    },
+    "answer": "A",
+    "explanation": "報告忘在家且快上課，應該是擔心，worried 正確。famous 有名的；popular 受歡迎的；delicious 美味的。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-006",
+    "type": "單字詞彙",
+    "passage": "",
+    "question": "This app helps students _______ how much time they spend on their phones every day.",
+    "options": {
+      "A": "record",
+      "B": "invite",
+      "C": "repair",
+      "D": "borrow"
+    },
+    "answer": "A",
+    "explanation": "app 幫學生記錄手機使用時間，record 表記錄。invite 邀請；repair 修理；borrow 借入。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-007",
+    "type": "單字詞彙",
+    "passage": "",
+    "question": "The road was closed after the storm, so we had to take another _______ to school.",
+    "options": {
+      "A": "route",
+      "B": "habit",
+      "C": "ticket",
+      "D": "message"
+    },
+    "answer": "A",
+    "explanation": "道路關閉，所以要走另一條路，route 是路線。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-008",
+    "type": "單字詞彙",
+    "passage": "",
+    "question": "Grandma speaks slowly because she wants everyone to understand her _______.",
+    "options": {
+      "A": "clearly",
+      "B": "suddenly",
+      "C": "cheaply",
+      "D": "hungrily"
+    },
+    "answer": "A",
+    "explanation": "說慢是為了讓大家清楚理解，clearly 表清楚地。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-009",
+    "type": "單字詞彙",
+    "passage": "",
+    "question": "The sign says, 'Do not _______ the animals.' Visitors should not give them food.",
+    "options": {
+      "A": "feed",
+      "B": "follow",
+      "C": "hide",
+      "D": "paint"
+    },
+    "answer": "A",
+    "explanation": "後句說不要給動物食物，feed 是餵食。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-010",
+    "type": "單字詞彙",
+    "passage": "",
+    "question": "Tom saved money for three months because he wanted to buy a _______ for his bike.",
+    "options": {
+      "A": "helmet",
+      "B": "soup",
+      "C": "cloud",
+      "D": "newspaper"
+    },
+    "answer": "A",
+    "explanation": "與 bike 搭配且需買的物品是 helmet 安全帽。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-011",
+    "type": "時態",
+    "passage": "",
+    "question": "My sister _______ English since she was five years old, and now she speaks it very well.",
+    "options": {
+      "A": "learns",
+      "B": "learned",
+      "C": "has learned",
+      "D": "is learning"
+    },
+    "answer": "C",
+    "explanation": "since + 過去時間點常搭配現在完成式，表示從過去持續到現在，故選 has learned。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-012",
+    "type": "時態",
+    "passage": "",
+    "question": "When I walked into the kitchen yesterday, my mom _______ a cake.",
+    "options": {
+      "A": "bakes",
+      "B": "was baking",
+      "C": "has baked",
+      "D": "will bake"
+    },
+    "answer": "B",
+    "explanation": "過去某動作發生時，另一動作正在進行，用過去進行式 was baking。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-013",
+    "type": "時態",
+    "passage": "",
+    "question": "Kevin usually _______ to school by bus, but today he rode his bike.",
+    "options": {
+      "A": "goes",
+      "B": "went",
+      "C": "has gone",
+      "D": "is going"
+    },
+    "answer": "A",
+    "explanation": "usually 表示平常習慣，用現在簡單式 goes。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-014",
+    "type": "時態",
+    "passage": "",
+    "question": "Look! The dog _______ under the table because it is afraid of the thunder.",
+    "options": {
+      "A": "hides",
+      "B": "hid",
+      "C": "is hiding",
+      "D": "has hidden"
+    },
+    "answer": "C",
+    "explanation": "Look! 表示正在發生的動作，用現在進行式 is hiding。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-015",
+    "type": "時態",
+    "passage": "",
+    "question": "I _______ my keys this morning, so I had to wait outside the house.",
+    "options": {
+      "A": "lose",
+      "B": "lost",
+      "C": "have lost",
+      "D": "am losing"
+    },
+    "answer": "B",
+    "explanation": "this morning 在敘述過去已發生事件，且後句 had to 是過去式，選 lost。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-016",
+    "type": "時態",
+    "passage": "",
+    "question": "By the time we arrived at the theater, the movie _______ already _______.",
+    "options": {
+      "A": "has / started",
+      "B": "had / started",
+      "C": "will / start",
+      "D": "is / starting"
+    },
+    "answer": "B",
+    "explanation": "到達劇院之前電影已經開始，表示過去的過去，用過去完成式 had started。",
+    "difficulty": "精熟",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-017",
+    "type": "時態",
+    "passage": "",
+    "question": "Don't call Dad now. He _______ a meeting with his boss.",
+    "options": {
+      "A": "has",
+      "B": "had",
+      "C": "is having",
+      "D": "has had"
+    },
+    "answer": "C",
+    "explanation": "now 表示現在正在開會，用現在進行式 is having。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-018",
+    "type": "時態",
+    "passage": "",
+    "question": "Nina _______ in Tainan for two years before she moved to Taipei.",
+    "options": {
+      "A": "lives",
+      "B": "has lived",
+      "C": "had lived",
+      "D": "will live"
+    },
+    "answer": "C",
+    "explanation": "搬到台北之前已經住台南兩年，屬過去之前的狀態，用 had lived。",
+    "difficulty": "精熟",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-019",
+    "type": "其他文法",
+    "passage": "",
+    "question": "The girl _______ is wearing a pink dress is my cousin, Emily.",
+    "options": {
+      "A": "who",
+      "B": "which",
+      "C": "whom",
+      "D": "whose"
+    },
+    "answer": "A",
+    "explanation": "先行詞是人，且關係子句中作主詞，因此用 who。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-020",
+    "type": "其他文法",
+    "passage": "",
+    "question": "_______ Kevin was very tired after football practice, he still finished all his chores.",
+    "options": {
+      "A": "Because",
+      "B": "Although",
+      "C": "If",
+      "D": "But"
+    },
+    "answer": "B",
+    "explanation": "前後語意為雖然疲累但仍完成家事，用 Although。注意 Although 和 but 不並用。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-021",
+    "type": "其他文法",
+    "passage": "",
+    "question": "This is the book _______ I borrowed from the school library last week.",
+    "options": {
+      "A": "who",
+      "B": "which",
+      "C": "whose",
+      "D": "where"
+    },
+    "answer": "B",
+    "explanation": "先行詞 book 是物，用 which/that；選項中 which 正確。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-022",
+    "type": "其他文法",
+    "passage": "",
+    "question": "You should drink some water _______ you feel thirsty during the hike.",
+    "options": {
+      "A": "if",
+      "B": "but",
+      "C": "until",
+      "D": "or"
+    },
+    "answer": "A",
+    "explanation": "句意為如果健行中覺得口渴，就應喝水，if 正確。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-023",
+    "type": "其他文法",
+    "passage": "",
+    "question": "I don't have _______ money to buy the jacket, so I will wait until next month.",
+    "options": {
+      "A": "enough",
+      "B": "too many",
+      "C": "much too",
+      "D": "a few"
+    },
+    "answer": "A",
+    "explanation": "enough money 表示足夠的錢。too many 修飾可數複數；much too 修飾形容詞；a few 修飾可數名詞。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-024",
+    "type": "其他文法",
+    "passage": "",
+    "question": "The soup is _______ hot for the little boy to drink now.",
+    "options": {
+      "A": "too",
+      "B": "enough",
+      "C": "very many",
+      "D": "so much"
+    },
+    "answer": "A",
+    "explanation": "too + 形容詞 + to V 表示太……以致不能……，符合語意。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-025",
+    "type": "其他文法",
+    "passage": "",
+    "question": "Lisa asked me _______ I could help her carry the boxes.",
+    "options": {
+      "A": "because",
+      "B": "whether",
+      "C": "after",
+      "D": "until"
+    },
+    "answer": "B",
+    "explanation": "ask whether 表示詢問是否，句意為問我是否能幫忙搬箱子。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-026",
+    "type": "其他文法",
+    "passage": "",
+    "question": "The museum does not allow people _______ pictures in this room.",
+    "options": {
+      "A": "take",
+      "B": "taking",
+      "C": "to take",
+      "D": "took"
+    },
+    "answer": "C",
+    "explanation": "allow people to V 是固定用法，因此選 to take。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-027",
+    "type": "其他文法",
+    "passage": "",
+    "question": "Neither Ben nor his sisters _______ ready for the trip.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "has"
+    },
+    "answer": "B",
+    "explanation": "Neither...nor... 的動詞常與較近主詞一致，his sisters 為複數，故用 are。",
+    "difficulty": "精熟",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-028",
+    "type": "其他文法",
+    "passage": "",
+    "question": "The boy was so tired _______ he fell asleep on the bus.",
+    "options": {
+      "A": "that",
+      "B": "because",
+      "C": "if",
+      "D": "than"
+    },
+    "answer": "A",
+    "explanation": "so...that... 表示如此……以致……，符合語意。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-029",
+    "type": "其他文法",
+    "passage": "",
+    "question": "Mom told me _______ the door before leaving home.",
+    "options": {
+      "A": "lock",
+      "B": "locking",
+      "C": "to lock",
+      "D": "locked"
+    },
+    "answer": "C",
+    "explanation": "tell someone to V 表示告訴某人去做某事，因此選 to lock。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-030",
+    "type": "其他文法",
+    "passage": "",
+    "question": "This question is _______ than the last one, so I need more time.",
+    "options": {
+      "A": "difficult",
+      "B": "more difficult",
+      "C": "most difficult",
+      "D": "the difficult"
+    },
+    "answer": "B",
+    "explanation": "than 表比較，需要比較級 more difficult。",
+    "difficulty": "基礎",
+    "stage": "intro",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-031",
+    "type": "克漏字測驗",
+    "passage": "Dear Diary,\nToday was my first day at the new school. At first, I felt very nervous because I didn't know anyone here. When I walked into the classroom, a boy came up to me with a big smile. He introduced himself as Leo. He __31__ me find my seat and shared his textbook with me. During lunch, he even invited me __32__ with his friends. Thanks to Leo, my first day __33__ as bad as I thought it would be.",
+    "question": "Choose the best answer for __31__.",
+    "options": {
+      "A": "helps",
+      "B": "helped",
+      "C": "was helping",
+      "D": "has helped"
+    },
+    "answer": "B",
+    "explanation": "日記敘述第一天上學的過去事件，應用過去式 helped。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-032",
+    "type": "克漏字測驗",
+    "passage": "Dear Diary,\nToday was my first day at the new school. At first, I felt very nervous because I didn't know anyone here. When I walked into the classroom, a boy came up to me with a big smile. He introduced himself as Leo. He __31__ me find my seat and shared his textbook with me. During lunch, he even invited me __32__ with his friends. Thanks to Leo, my first day __33__ as bad as I thought it would be.",
+    "question": "Choose the best answer for __32__.",
+    "options": {
+      "A": "sit",
+      "B": "sitting",
+      "C": "to sit",
+      "D": "sat"
+    },
+    "answer": "C",
+    "explanation": "invite someone to do something 是固定用法，故選 to sit。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-033",
+    "type": "克漏字測驗",
+    "passage": "Dear Diary,\nToday was my first day at the new school. At first, I felt very nervous because I didn't know anyone here. When I walked into the classroom, a boy came up to me with a big smile. He introduced himself as Leo. He __31__ me find my seat and shared his textbook with me. During lunch, he even invited me __32__ with his friends. Thanks to Leo, my first day __33__ as bad as I thought it would be.",
+    "question": "Choose the best answer for __33__.",
+    "options": {
+      "A": "is not",
+      "B": "will not be",
+      "C": "has not been",
+      "D": "was not"
+    },
+    "answer": "D",
+    "explanation": "仍在描述過去第一天的狀態，因此用過去式 was not。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-034",
+    "type": "閱測-主題判斷",
+    "passage": "A city library started a new program called Books on Wheels. Every Wednesday afternoon, a small bus full of books visits three parks. Children can borrow books with their library cards and return them the next week. The library started this program because some families live far from the main library.",
+    "question": "What is the main idea of the reading?",
+    "options": {
+      "A": "A library program brings books to parks.",
+      "B": "Children should not read in parks.",
+      "C": "Library cards are hard to use.",
+      "D": "Buses are faster than bikes."
+    },
+    "answer": "A",
+    "explanation": "全文介紹 Books on Wheels：圖書館用巴士把書帶到公園，讓離圖書館較遠的家庭也能借書。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-035",
+    "type": "閱測-細節判斷",
+    "passage": "A city library started a new program called Books on Wheels. Every Wednesday afternoon, a small bus full of books visits three parks. Children can borrow books with their library cards and return them the next week. The library started this program because some families live far from the main library.",
+    "question": "Why did the library start the program?",
+    "options": {
+      "A": "Some families live far from the main library.",
+      "B": "The parks are closed on Wednesday.",
+      "C": "Children lost their library cards.",
+      "D": "The bus drivers wanted more books."
+    },
+    "answer": "A",
+    "explanation": "文章最後明確說 some families live far from the main library，因此開辦此計畫。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-036",
+    "type": "閱測-主題判斷",
+    "passage": "Welcome to Green Valley Eco-Camp! We offer a chance for teenagers aged 13 to 16 to get closer to nature. This summer, from July 10 to July 15, you can learn how to build a tent, find clean water in the woods, and recognize wild plants. The total cost is $200, which includes food, a tent, and a camp T-shirt. Sign up before June 1 to get a 10% discount.",
+    "question": "What is the poster mainly about?",
+    "options": {
+      "A": "A summer camp in nature.",
+      "B": "A new school uniform.",
+      "C": "A city bus map.",
+      "D": "A store selling tents."
+    },
+    "answer": "A",
+    "explanation": "海報介紹 Green Valley Eco-Camp 的年齡、時間、活動與費用，主題是自然夏令營。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-037",
+    "type": "閱測-細節判斷",
+    "passage": "Welcome to Green Valley Eco-Camp! We offer a chance for teenagers aged 13 to 16 to get closer to nature. This summer, from July 10 to July 15, you can learn how to build a tent, find clean water in the woods, and recognize wild plants. The total cost is $200, which includes food, a tent, and a camp T-shirt. Sign up before June 1 to get a 10% discount.",
+    "question": "Which is true about the camp?",
+    "options": {
+      "A": "The cost covers food and a T-shirt.",
+      "B": "It is open to people of all ages.",
+      "C": "It starts on June 1.",
+      "D": "It teaches students how to drive a bus."
+    },
+    "answer": "A",
+    "explanation": "文中提到 $200 includes food, a tent, and a camp T-shirt，故 A 正確。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-038",
+    "type": "閱測-上下文猜字義",
+    "passage": "Long ago, people did not have refrigerators to keep food fresh. In winter, they cut big blocks of ice from frozen lakes and stored them underground. The holes were covered with straw to keep the heat away. Because of this, the ice inside would not melt even during hot summer days.",
+    "question": "What does the word 'melt' mean in the reading?",
+    "options": {
+      "A": "To turn from ice into water.",
+      "B": "To become louder.",
+      "C": "To grow into a plant.",
+      "D": "To move from one city to another."
+    },
+    "answer": "A",
+    "explanation": "上下文談到 ice 和 hot summer days，冰遇熱會融化成水，因此 melt 是從冰變成水。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-039",
+    "type": "閱測-細節判斷",
+    "passage": "Long ago, people did not have refrigerators to keep food fresh. In winter, they cut big blocks of ice from frozen lakes and stored them underground. The holes were covered with straw to keep the heat away. Because of this, the ice inside would not melt even during hot summer days.",
+    "question": "Why did people cover the holes with straw?",
+    "options": {
+      "A": "To keep heat away from the ice.",
+      "B": "To feed animals near the lake.",
+      "C": "To make the holes look smaller.",
+      "D": "To help the ice become warm quickly."
+    },
+    "answer": "A",
+    "explanation": "文中明說 holes were covered with straw to keep the heat away。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-040",
+    "type": "閱測-結論、推論",
+    "passage": "Every year, many plastic bottles are thrown away, and some of them end up in the ocean. Sea turtles often mistake plastic bags for jellyfish. When they eat the plastic, it stays in their stomachs and makes them sick. If people do not change their habits, the problem will become worse.",
+    "question": "What can we learn from this reading?",
+    "options": {
+      "A": "Plastic trash can hurt ocean animals.",
+      "B": "Sea turtles make plastic bags.",
+      "C": "Plastic bottles clean the ocean.",
+      "D": "People have stopped using plastic."
+    },
+    "answer": "A",
+    "explanation": "文章說海龜誤食塑膠而生病，推論塑膠垃圾會傷害海洋動物。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-041",
+    "type": "閱測-上下文猜字義",
+    "passage": "Every year, many plastic bottles are thrown away, and some of them end up in the ocean. Sea turtles often mistake plastic bags for jellyfish. When they eat the plastic, it stays in their stomachs and makes them sick. If people do not change their habits, the problem will become worse.",
+    "question": "What does 'mistake' mean in the sentence 'Sea turtles often mistake plastic bags for jellyfish'?",
+    "options": {
+      "A": "Think one thing is another thing.",
+      "B": "Carry something to the beach.",
+      "C": "Clean something with water.",
+      "D": "Make a bag from paper."
+    },
+    "answer": "A",
+    "explanation": "海龜把塑膠袋當成水母，mistake A for B 表把 A 誤認為 B。",
+    "difficulty": "精熟",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-042",
+    "type": "閱測-其他",
+    "passage": "Train schedule from Sunshine City to Blue Lake:\nExpress Train: departs at 08:00, 12:00, 16:00. Takes 1.5 hours. Costs $30.\nRegular Train: departs every hour on the hour. Takes 3 hours. Costs $15.\nLeo needs to arrive before 11:30 AM and wants to save as much money as possible.",
+    "question": "Which train should Leo choose?",
+    "options": {
+      "A": "The 08:00 Express Train.",
+      "B": "The 08:00 Regular Train.",
+      "C": "The 12:00 Express Train.",
+      "D": "The 11:00 Regular Train."
+    },
+    "answer": "B",
+    "explanation": "Leo 要 11:30 前到且想省錢。08:00 普通車 11:00 到，票價 $15，符合且比特快車便宜。",
+    "difficulty": "精熟",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-043",
+    "type": "閱測-細節判斷",
+    "passage": "Train schedule from Sunshine City to Blue Lake:\nExpress Train: departs at 08:00, 12:00, 16:00. Takes 1.5 hours. Costs $30.\nRegular Train: departs every hour on the hour. Takes 3 hours. Costs $15.\nLeo needs to arrive before 11:30 AM and wants to save as much money as possible.",
+    "question": "How long does the Express Train take?",
+    "options": {
+      "A": "1.5 hours.",
+      "B": "3 hours.",
+      "C": "4 hours.",
+      "D": "30 minutes."
+    },
+    "answer": "A",
+    "explanation": "時刻表明確寫 Express Train takes 1.5 hours。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-044",
+    "type": "閱測-其他",
+    "passage": "Class Clean-up Day\nDate: Friday, May 12\nTime: 3:30 p.m. to 5:00 p.m.\nBring: a water bottle, a hat, and gloves\nNote: Students who cannot join must tell their homeroom teacher before Thursday.",
+    "question": "Which student follows the notice?",
+    "options": {
+      "A": "Amy tells her teacher on Wednesday that she cannot join.",
+      "B": "Ben brings only his phone and snacks.",
+      "C": "Cindy arrives at 5:30 p.m.",
+      "D": "David tells his teacher after the clean-up day."
+    },
+    "answer": "A",
+    "explanation": "公告說不能參加者要在週四前告知導師，Amy 週三告知符合。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-045",
+    "type": "閱測-細節判斷",
+    "passage": "Class Clean-up Day\nDate: Friday, May 12\nTime: 3:30 p.m. to 5:00 p.m.\nBring: a water bottle, a hat, and gloves\nNote: Students who cannot join must tell their homeroom teacher before Thursday.",
+    "question": "What should students bring?",
+    "options": {
+      "A": "A water bottle, a hat, and gloves.",
+      "B": "A camera and a notebook.",
+      "C": "A tent and a sleeping bag.",
+      "D": "A library card and money."
+    },
+    "answer": "A",
+    "explanation": "Bring 欄位明列 water bottle, hat, gloves。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-046",
+    "type": "閱測-結論、推論",
+    "passage": "Lily wanted to buy a gift for her brother. He liked music, but he already had many CDs. At the store, Lily saw a small notebook with pictures of guitars on the cover. She bought it because her brother had started writing songs. He smiled when he opened the gift.",
+    "question": "Why did Lily buy the notebook?",
+    "options": {
+      "A": "It matched her brother's new interest in writing songs.",
+      "B": "It was the cheapest thing in the store.",
+      "C": "Her brother hated music.",
+      "D": "She wanted to keep it for herself."
+    },
+    "answer": "A",
+    "explanation": "弟弟開始寫歌，筆記本可用來記歌詞或想法，且封面有吉他圖案，符合他的興趣。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-047",
+    "type": "閱測-細節判斷",
+    "passage": "Lily wanted to buy a gift for her brother. He liked music, but he already had many CDs. At the store, Lily saw a small notebook with pictures of guitars on the cover. She bought it because her brother had started writing songs. He smiled when he opened the gift.",
+    "question": "What did Lily's brother already have?",
+    "options": {
+      "A": "Many CDs.",
+      "B": "Many guitars.",
+      "C": "Many notebooks.",
+      "D": "Many stores."
+    },
+    "answer": "A",
+    "explanation": "文中明說 he already had many CDs。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-048",
+    "type": "閱測-主題判斷",
+    "passage": "A school started 'Meatless Monday' once a week. The lunch still has eggs, beans, vegetables, and fruit. The school says the plan is not to ask everyone to stop eating meat forever. It only helps students try different foods and learn how food choices can affect the earth.",
+    "question": "What is the reading mainly about?",
+    "options": {
+      "A": "A school lunch plan that helps students try different foods.",
+      "B": "A rule that bans all food at school.",
+      "C": "A story about buying fruit in a market.",
+      "D": "A guide for cooking meat at home."
+    },
+    "answer": "A",
+    "explanation": "文章介紹學校每週一次 Meatless Monday，目的在嘗試不同食物並理解食物選擇對地球的影響。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-049",
+    "type": "閱測-結論、推論",
+    "passage": "A school started 'Meatless Monday' once a week. The lunch still has eggs, beans, vegetables, and fruit. The school says the plan is not to ask everyone to stop eating meat forever. It only helps students try different foods and learn how food choices can affect the earth.",
+    "question": "Which idea does the school most likely agree with?",
+    "options": {
+      "A": "Small food choices can be a way to learn about the environment.",
+      "B": "Students should never eat lunch.",
+      "C": "Beans and eggs are not food.",
+      "D": "All families must stop eating meat forever."
+    },
+    "answer": "A",
+    "explanation": "文章說不是要求永遠不吃肉，而是透過一次午餐理解食物選擇與環境，因此 A 合理。",
+    "difficulty": "精熟",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-050",
+    "type": "閱測-其他",
+    "passage": "A sign at the door says:\nQUIET ROOM\n- Please keep your voice low.\n- No phone calls.\n- Food and drinks are not allowed.\n- You may use this room for reading or study.",
+    "question": "Who is using the room correctly?",
+    "options": {
+      "A": "Sam reads a book quietly.",
+      "B": "Tina eats noodles at the desk.",
+      "C": "Mark talks loudly on the phone.",
+      "D": "Eva plays music for her friends."
+    },
+    "answer": "A",
+    "explanation": "規定可閱讀或讀書，且要保持安靜，Sam 符合。其他選項違反禁食、禁電話或安靜規定。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-051",
+    "type": "閱測-細節判斷",
+    "passage": "A sign at the door says:\nQUIET ROOM\n- Please keep your voice low.\n- No phone calls.\n- Food and drinks are not allowed.\n- You may use this room for reading or study.",
+    "question": "What is NOT allowed in the room?",
+    "options": {
+      "A": "Phone calls.",
+      "B": "Reading books.",
+      "C": "Studying quietly.",
+      "D": "Keeping your voice low."
+    },
+    "answer": "A",
+    "explanation": "公告明確說 No phone calls。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-052",
+    "type": "克漏字測驗",
+    "passage": "Cloze: Nina is making a poster for the school concert. She wants the poster to be easy to read, so she chooses large letters and a simple picture. She also puts the date and place at the top because people need to find the information __52__. If the poster is too full, students may not want __53__ it.",
+    "question": "Choose the best answer for __52__.",
+    "options": {
+      "A": "quickly",
+      "B": "quietly",
+      "C": "heavily",
+      "D": "hungrily"
+    },
+    "answer": "A",
+    "explanation": "海報資訊要讓人快速找到，quickly 最符合。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-053",
+    "type": "克漏字測驗",
+    "passage": "Cloze: Nina is making a poster for the school concert. She wants the poster to be easy to read, so she chooses large letters and a simple picture. She also puts the date and place at the top because people need to find the information __52__. If the poster is too full, students may not want __53__ it.",
+    "question": "Choose the best answer for __53__.",
+    "options": {
+      "A": "read",
+      "B": "to read",
+      "C": "reading",
+      "D": "readed"
+    },
+    "answer": "B",
+    "explanation": "want to V 是固定用法，因此選 to read。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-054",
+    "type": "克漏字測驗",
+    "passage": "Cloze: Jason used to throw away old notebooks at the end of each semester. This year, he tore out the blank pages and made a small notebook for shopping lists. He found that many things could be used again __54__ he looked at them in a new way. Now he thinks before he __55__ things away.",
+    "question": "Choose the best answer for __54__.",
+    "options": {
+      "A": "if",
+      "B": "but",
+      "C": "so",
+      "D": "until"
+    },
+    "answer": "A",
+    "explanation": "句意為如果用新的方式看待，很多東西可再次使用，因此 if 正確。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-055",
+    "type": "克漏字測驗",
+    "passage": "Cloze: Jason used to throw away old notebooks at the end of each semester. This year, he tore out the blank pages and made a small notebook for shopping lists. He found that many things could be used again __54__ he looked at them in a new way. Now he thinks before he __55__ things away.",
+    "question": "Choose the best answer for __55__.",
+    "options": {
+      "A": "throws",
+      "B": "threw",
+      "C": "has thrown",
+      "D": "was throwing"
+    },
+    "answer": "A",
+    "explanation": "think before he throws things away 表示現在的習慣，用現在簡單式 throws。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-056",
+    "type": "克漏字測驗",
+    "passage": "Cloze: The school art club wants to paint a wall near the playground. Before they begin, they ask students and teachers for ideas. They do this __56__ the wall belongs to everyone in the school. After collecting ideas, they choose a design __57__ shows students reading, playing, and helping each other.",
+    "question": "Choose the best answer for __56__.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "or",
+      "D": "unless"
+    },
+    "answer": "A",
+    "explanation": "前後為原因關係：因為牆屬於全校，所以先詢問大家意見。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-057",
+    "type": "克漏字測驗",
+    "passage": "Cloze: The school art club wants to paint a wall near the playground. Before they begin, they ask students and teachers for ideas. They do this __56__ the wall belongs to everyone in the school. After collecting ideas, they choose a design __57__ shows students reading, playing, and helping each other.",
+    "question": "Choose the best answer for __57__.",
+    "options": {
+      "A": "who",
+      "B": "which",
+      "C": "where",
+      "D": "whose"
+    },
+    "answer": "B",
+    "explanation": "先行詞 design 是物，且關係子句中作主詞，用 which。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-058",
+    "type": "閱測-細節判斷",
+    "passage": "Message from Coach Lin:\nTeam practice will start at 4:10 today, not 4:30. Please arrive ten minutes early to warm up. If it rains, practice will move to the gym. Bring both running shoes and indoor shoes.",
+    "question": "What time should players arrive today?",
+    "options": {
+      "A": "4:00.",
+      "B": "4:10.",
+      "C": "4:20.",
+      "D": "4:30."
+    },
+    "answer": "A",
+    "explanation": "練習 4:10 開始，且要提早 10 分鐘到，所以應 4:00 到。",
+    "difficulty": "精熟",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-059",
+    "type": "閱測-其他",
+    "passage": "Message from Coach Lin:\nTeam practice will start at 4:10 today, not 4:30. Please arrive ten minutes early to warm up. If it rains, practice will move to the gym. Bring both running shoes and indoor shoes.",
+    "question": "Why should players bring indoor shoes?",
+    "options": {
+      "A": "Practice may move to the gym if it rains.",
+      "B": "The coach will sell shoes.",
+      "C": "Running shoes are not allowed outside.",
+      "D": "The game was canceled."
+    },
+    "answer": "A",
+    "explanation": "訊息說若下雨會移到 gym，因此需要 indoor shoes。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-060",
+    "type": "閱測-結論、推論",
+    "passage": "A small coffee shop puts used coffee grounds near the door with a sign: 'Free for gardens.' Some people take them home and mix them with soil. The shop does this because throwing the grounds away makes trash, but using them in gardens gives them a second life.",
+    "question": "What is the coffee shop trying to do?",
+    "options": {
+      "A": "Reduce waste by letting people reuse coffee grounds.",
+      "B": "Sell more coffee to gardeners.",
+      "C": "Stop people from growing plants.",
+      "D": "Make the door smell like soil."
+    },
+    "answer": "A",
+    "explanation": "咖啡店把咖啡渣免費提供給花園使用，是為了減少垃圾並再利用。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-061",
+    "type": "閱測-上下文猜字義",
+    "passage": "A small coffee shop puts used coffee grounds near the door with a sign: 'Free for gardens.' Some people take them home and mix them with soil. The shop does this because throwing the grounds away makes trash, but using them in gardens gives them a second life.",
+    "question": "What does 'a second life' mean in the reading?",
+    "options": {
+      "A": "A new use after something was almost thrown away.",
+      "B": "A new coffee shop near the garden.",
+      "C": "A plant that drinks coffee.",
+      "D": "A person who lives twice."
+    },
+    "answer": "A",
+    "explanation": "coffee grounds 原本要丟掉，現在可用於花園，second life 指新的用途。",
+    "difficulty": "精熟",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-062",
+    "type": "閱測-其他",
+    "passage": "Two students are choosing after-school clubs.\nArt Club: Tue. 4:00-5:30. Bring your own notebook. Fee: $0.\nCooking Club: Wed. 4:30-6:00. Fee: $20 for food.\nBasketball Club: Thu. 4:00-6:00. Bring sports shoes. Fee: $0.\nAnna is free only on Tuesday and does not want to pay a fee.",
+    "question": "Which club should Anna choose?",
+    "options": {
+      "A": "Art Club.",
+      "B": "Cooking Club.",
+      "C": "Basketball Club.",
+      "D": "No club can fit her needs."
+    },
+    "answer": "A",
+    "explanation": "Anna 只有週二有空且不想付費，Art Club 正好週二且免費。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-063",
+    "type": "閱測-細節判斷",
+    "passage": "Two students are choosing after-school clubs.\nArt Club: Tue. 4:00-5:30. Bring your own notebook. Fee: $0.\nCooking Club: Wed. 4:30-6:00. Fee: $20 for food.\nBasketball Club: Thu. 4:00-6:00. Bring sports shoes. Fee: $0.\nAnna is free only on Tuesday and does not want to pay a fee.",
+    "question": "What does the Cooking Club ask students to pay for?",
+    "options": {
+      "A": "Food.",
+      "B": "Shoes.",
+      "C": "A notebook.",
+      "D": "A bus ticket."
+    },
+    "answer": "A",
+    "explanation": "表格寫 Cooking Club 的 fee 是 $20 for food。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-064",
+    "type": "閱測-主題判斷",
+    "passage": "Some students think reading aloud is only for young children. But Ms. Wang asks eighth graders to read poems aloud in class. She says the sound of words can help students feel the rhythm and emotion of a poem. After practicing, many students understand the poems better.",
+    "question": "What is the best title for this reading?",
+    "options": {
+      "A": "Why Reading Poems Aloud Helps",
+      "B": "How to Write a Long Poem",
+      "C": "A Club for Young Children",
+      "D": "The History of Eighth Grade"
+    },
+    "answer": "A",
+    "explanation": "文章重點是朗讀詩如何幫助理解節奏與情感。",
+    "difficulty": "基礎",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-065",
+    "type": "閱測-結論、推論",
+    "passage": "Some students think reading aloud is only for young children. But Ms. Wang asks eighth graders to read poems aloud in class. She says the sound of words can help students feel the rhythm and emotion of a poem. After practicing, many students understand the poems better.",
+    "question": "What does Ms. Wang believe?",
+    "options": {
+      "A": "The sound of words is important in reading poems.",
+      "B": "Only young children should read aloud.",
+      "C": "Poems should never be read in class.",
+      "D": "Students understand less after practice."
+    },
+    "answer": "A",
+    "explanation": "Ms. Wang 說聲音能幫助學生感受節奏與情緒，因此她認為朗讀很重要。",
+    "difficulty": "精熟",
+    "stage": "middle",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-066",
+    "type": "閱測-主題判斷",
+    "passage": "In the past, the school garden was locked most of the time because teachers were afraid students might step on the plants. Last year, a science teacher changed the rule. Students could enter the garden during lunch if they signed their names and agreed to water one plant. At first, only five students joined. After two months, more than forty students had helped. The garden became cleaner, and fewer plants were broken. The teacher said, 'When students are trusted with a place, they often take better care of it.'",
+    "question": "What is the main idea of the reading?",
+    "options": {
+      "A": "Giving students responsibility can help them care for a place.",
+      "B": "School gardens should always be locked.",
+      "C": "Students should never water plants.",
+      "D": "Lunch time is too short for science."
+    },
+    "answer": "A",
+    "explanation": "文章描述開放花園並要求學生登記與照顧植物後，花園變乾淨且受損減少，主旨是信任與責任能促成照顧。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-067",
+    "type": "閱測-結論、推論",
+    "passage": "In the past, the school garden was locked most of the time because teachers were afraid students might step on the plants. Last year, a science teacher changed the rule. Students could enter the garden during lunch if they signed their names and agreed to water one plant. At first, only five students joined. After two months, more than forty students had helped. The garden became cleaner, and fewer plants were broken. The teacher said, 'When students are trusted with a place, they often take better care of it.'",
+    "question": "Why did fewer plants get broken after the rule changed?",
+    "options": {
+      "A": "Students felt responsible for the garden.",
+      "B": "Teachers bought stronger plants.",
+      "C": "The garden was moved to another school.",
+      "D": "Students stopped eating lunch."
+    },
+    "answer": "A",
+    "explanation": "新規則讓學生簽名並照顧植物，形成責任感，故較少破壞。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-068",
+    "type": "閱測-結論、推論",
+    "passage": "A local bakery used to throw away unsold bread every night. Now it sends the bread to a community center before closing. The center gives the bread to families who need it the next morning. The bakery also writes the date on each bag so the center can use the older bread first. The owner says the plan is not perfect because the shop must spend extra time packing bread, but he believes less food should be wasted.",
+    "question": "Which sentence best describes the owner's idea?",
+    "options": {
+      "A": "The plan takes effort, but it helps reduce food waste.",
+      "B": "Old bread should always be sold at a higher price.",
+      "C": "Community centers should bake all bread themselves.",
+      "D": "Food waste is not a problem."
+    },
+    "answer": "A",
+    "explanation": "店主承認需要額外時間包裝，但認為減少食物浪費重要。A 最完整。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-069",
+    "type": "閱測-細節判斷",
+    "passage": "A local bakery used to throw away unsold bread every night. Now it sends the bread to a community center before closing. The center gives the bread to families who need it the next morning. The bakery also writes the date on each bag so the center can use the older bread first. The owner says the plan is not perfect because the shop must spend extra time packing bread, but he believes less food should be wasted.",
+    "question": "Why does the bakery write the date on each bag?",
+    "options": {
+      "A": "So the center can use the older bread first.",
+      "B": "So the bags look more beautiful.",
+      "C": "So families can return the bread to the bakery.",
+      "D": "So the owner can count cakes."
+    },
+    "answer": "A",
+    "explanation": "文中明說寫日期是讓中心先使用較早的麵包。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-070",
+    "type": "閱測-結論、推論",
+    "passage": "Mason wanted to join the school running team, but he was not fast enough in the first test. Instead of giving up, he asked the coach what he could improve. The coach told him to practice a shorter step and breathe in a steady way. For the next month, Mason wrote down his time after every practice. He did not become the fastest runner, but he cut thirty seconds from his old time and became the team's record keeper.",
+    "question": "What can we learn from Mason's story?",
+    "options": {
+      "A": "Improvement can come from feedback and steady practice.",
+      "B": "Only the fastest students can join a team.",
+      "C": "Writing down practice times makes people slower.",
+      "D": "Coaches should never give advice."
+    },
+    "answer": "A",
+    "explanation": "Mason 接受教練建議、記錄練習時間，雖非最快但進步很多，顯示回饋與穩定練習的重要。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-071",
+    "type": "閱測-細節判斷",
+    "passage": "Mason wanted to join the school running team, but he was not fast enough in the first test. Instead of giving up, he asked the coach what he could improve. The coach told him to practice a shorter step and breathe in a steady way. For the next month, Mason wrote down his time after every practice. He did not become the fastest runner, but he cut thirty seconds from his old time and became the team's record keeper.",
+    "question": "What did Mason do after every practice?",
+    "options": {
+      "A": "He wrote down his time.",
+      "B": "He bought new shoes.",
+      "C": "He gave up running.",
+      "D": "He changed schools."
+    },
+    "answer": "A",
+    "explanation": "文章明說 Mason wrote down his time after every practice。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-072",
+    "type": "閱測-主題判斷",
+    "passage": "A museum is planning a new audio guide for visitors. Some workers want the guide to include many dates and names. Others think visitors will remember more if the guide tells stories about one or two objects in each room. After testing both plans, the museum found that visitors using the story guide spent more time looking at the objects and could explain them better after the visit.",
+    "question": "What is the reading mainly about?",
+    "options": {
+      "A": "How a museum chose a better audio guide.",
+      "B": "Why museums should close early.",
+      "C": "How to clean old objects.",
+      "D": "Why names and dates are never useful."
+    },
+    "answer": "A",
+    "explanation": "文章描述博物館比較兩種導覽方式，最後發現故事導覽效果較好。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-073",
+    "type": "閱測-結論、推論",
+    "passage": "A museum is planning a new audio guide for visitors. Some workers want the guide to include many dates and names. Others think visitors will remember more if the guide tells stories about one or two objects in each room. After testing both plans, the museum found that visitors using the story guide spent more time looking at the objects and could explain them better after the visit.",
+    "question": "What did the museum learn from the test?",
+    "options": {
+      "A": "Stories may help visitors understand objects better.",
+      "B": "Visitors do not like looking at objects.",
+      "C": "Audio guides should include no information.",
+      "D": "Dates are the only thing visitors remember."
+    },
+    "answer": "A",
+    "explanation": "測試結果顯示使用故事導覽者停留較久且能解釋物件，故故事有助理解。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-074",
+    "type": "閱測-結論、推論",
+    "passage": "River Town has two ways to remind people not to throw trash into the river. Plan A puts up signs that say, 'Do not litter.' Plan B asks students to draw pictures of fish and write short messages about the river. After one month, fewer bottles were found near the areas with student drawings. Some people said the drawings made them feel the river was part of their community.",
+    "question": "Why might Plan B work better?",
+    "options": {
+      "A": "It made people feel connected to the river.",
+      "B": "It told people to buy more bottles.",
+      "C": "It removed all trash cans from town.",
+      "D": "It made the river deeper."
+    },
+    "answer": "A",
+    "explanation": "學生畫作讓人覺得河流是社區的一部分，因此較可能激發保護意識。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-075",
+    "type": "閱測-細節判斷",
+    "passage": "River Town has two ways to remind people not to throw trash into the river. Plan A puts up signs that say, 'Do not litter.' Plan B asks students to draw pictures of fish and write short messages about the river. After one month, fewer bottles were found near the areas with student drawings. Some people said the drawings made them feel the river was part of their community.",
+    "question": "What did students do in Plan B?",
+    "options": {
+      "A": "They drew fish and wrote short messages.",
+      "B": "They built a new bridge.",
+      "C": "They cleaned the town hall.",
+      "D": "They sold bottles near the river."
+    },
+    "answer": "A",
+    "explanation": "文章明說 Plan B asks students to draw pictures of fish and write messages。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-076",
+    "type": "閱測-主題判斷",
+    "passage": "Online reviews can help people choose restaurants, but they can also be unfair. A customer may give one star because it rained that day, not because the food was bad. A careful reader should look for reviews that explain the food, service, and price clearly. It is also helpful to read more than one review before making a decision.",
+    "question": "What is the best title for this reading?",
+    "options": {
+      "A": "How to Read Online Reviews Carefully",
+      "B": "Why Rain Makes Food Bad",
+      "C": "The Most Expensive Restaurants",
+      "D": "How to Write a Weather Report"
+    },
+    "answer": "A",
+    "explanation": "文章重點是網路評論可能有偏差，讀者應仔細判斷並多看幾則。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-077",
+    "type": "閱測-結論、推論",
+    "passage": "Online reviews can help people choose restaurants, but they can also be unfair. A customer may give one star because it rained that day, not because the food was bad. A careful reader should look for reviews that explain the food, service, and price clearly. It is also helpful to read more than one review before making a decision.",
+    "question": "Which review would the writer most likely trust?",
+    "options": {
+      "A": "'The noodles were fresh, but the service was slow during lunch.'",
+      "B": "'It rained. One star.'",
+      "C": "'I hate Mondays.'",
+      "D": "'My friend did not text me, so this place is bad.'"
+    },
+    "answer": "A",
+    "explanation": "作者建議看能清楚說明食物、服務與價格的評論，A 有具體理由。其他選項與餐廳品質無關或過度主觀。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-078",
+    "type": "閱測-其他",
+    "passage": "The table shows how three students study English:\nAnn: reads stories, 20 minutes a day, writes new words in sentences.\nBill: watches videos, 90 minutes on Sunday, writes no notes.\nCara: listens to short talks, 15 minutes a day, repeats useful sentences.\nThe teacher says the best plan is not always the longest one. It should help students use English often.",
+    "question": "Which student studies English most regularly?",
+    "options": {
+      "A": "Ann and Cara.",
+      "B": "Bill only.",
+      "C": "Ann only.",
+      "D": "No one."
+    },
+    "answer": "A",
+    "explanation": "Ann 每天 20 分鐘，Cara 每天 15 分鐘，兩人都有規律練習。Bill 只週日一次。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-079",
+    "type": "閱測-結論、推論",
+    "passage": "The table shows how three students study English:\nAnn: reads stories, 20 minutes a day, writes new words in sentences.\nBill: watches videos, 90 minutes on Sunday, writes no notes.\nCara: listens to short talks, 15 minutes a day, repeats useful sentences.\nThe teacher says the best plan is not always the longest one. It should help students use English often.",
+    "question": "What does the teacher probably think?",
+    "options": {
+      "A": "Using English often is more important than studying for a long time once.",
+      "B": "Watching videos is always bad.",
+      "C": "Writing notes is the only way to learn.",
+      "D": "Students should study only on Sunday."
+    },
+    "answer": "A",
+    "explanation": "老師說最好的計畫不一定最長，而是能常常使用英語，故 A 正確。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-080",
+    "type": "閱測-主題判斷",
+    "passage": "A school wants to make its website easier for new students. The old homepage has many moving pictures, long news stories, and five different menus. Some students say they cannot find the lunch menu or bus times quickly. The new plan puts three buttons at the top: Lunch, Bus, and Calendar. Longer news stories are moved to another page.",
+    "question": "What problem is the school trying to solve?",
+    "options": {
+      "A": "The homepage has too much information and is hard to use.",
+      "B": "The school has no lunch menu.",
+      "C": "Students do not like buses.",
+      "D": "The calendar has no dates."
+    },
+    "answer": "A",
+    "explanation": "舊首頁資訊多、選單多，學生找不到重要資訊，因此新設計讓入口更清楚。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-081",
+    "type": "閱測-結論、推論",
+    "passage": "A school wants to make its website easier for new students. The old homepage has many moving pictures, long news stories, and five different menus. Some students say they cannot find the lunch menu or bus times quickly. The new plan puts three buttons at the top: Lunch, Bus, and Calendar. Longer news stories are moved to another page.",
+    "question": "Why are Lunch, Bus, and Calendar placed at the top?",
+    "options": {
+      "A": "They are common things new students need quickly.",
+      "B": "They are the least important pages.",
+      "C": "They are moving pictures.",
+      "D": "They are news stories."
+    },
+    "answer": "A",
+    "explanation": "學生找不到 lunch menu 和 bus times，表示這些是常用資訊，放上方有助快速找到。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-082",
+    "type": "閱測-結論、推論",
+    "passage": "When Mei joined the class group chat, she noticed that some classmates answered every question quickly, even when they were not sure. Mei decided to wait, check her textbook, and then answer with the page number. At first, fewer people noticed her messages. Later, when students needed reliable answers before a test, they began to look for Mei's replies.",
+    "question": "Why did students later look for Mei's replies?",
+    "options": {
+      "A": "Her answers were checked and reliable.",
+      "B": "She always answered first.",
+      "C": "She wrote the funniest messages.",
+      "D": "She never used the textbook."
+    },
+    "answer": "A",
+    "explanation": "Mei 會查課本並附頁碼，因此答案可靠，考前同學會找她的回覆。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-083",
+    "type": "閱測-主題判斷",
+    "passage": "When Mei joined the class group chat, she noticed that some classmates answered every question quickly, even when they were not sure. Mei decided to wait, check her textbook, and then answer with the page number. At first, fewer people noticed her messages. Later, when students needed reliable answers before a test, they began to look for Mei's replies.",
+    "question": "What is the main message of the reading?",
+    "options": {
+      "A": "Being careful can be more useful than being fast.",
+      "B": "The fastest answer is always the best.",
+      "C": "Group chats should not be used for school.",
+      "D": "Textbooks never help students."
+    },
+    "answer": "A",
+    "explanation": "故事對比快速但不確定的回答與 Mei 查證後回答，主旨是謹慎比快更有價值。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-084",
+    "type": "閱測-主題判斷",
+    "passage": "The city started a night market map for visitors. Instead of listing every food stand, the map shows three short walking routes: snacks, games, and local history. Each route takes about thirty minutes. The city says visitors often enjoy the market more when they have a simple plan and still have time to explore.",
+    "question": "What is the map designed to do?",
+    "options": {
+      "A": "Help visitors enjoy the market with simple routes.",
+      "B": "Tell visitors to finish every stand in one night.",
+      "C": "Close the night market early.",
+      "D": "Stop people from playing games."
+    },
+    "answer": "A",
+    "explanation": "地圖用三條簡單路線幫遊客探索夜市，而不是列出所有攤位。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-085",
+    "type": "閱測-結論、推論",
+    "passage": "The city started a night market map for visitors. Instead of listing every food stand, the map shows three short walking routes: snacks, games, and local history. Each route takes about thirty minutes. The city says visitors often enjoy the market more when they have a simple plan and still have time to explore.",
+    "question": "Why does the city not list every food stand?",
+    "options": {
+      "A": "Too much information may make the map less useful for visitors.",
+      "B": "There is no food at the market.",
+      "C": "Visitors are not allowed to eat snacks.",
+      "D": "Games are more expensive than food."
+    },
+    "answer": "A",
+    "explanation": "市府認為簡單計畫加上自由探索較好，過多資訊可能降低實用性。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-086",
+    "type": "閱測-結論、推論",
+    "passage": "Two neighbors share a small garden. Mr. Chen likes flowers, and Ms. Lin likes vegetables. At first, they argued about how to use the space. Then they drew a simple plan: flowers near the street, vegetables near the kitchen wall, and a small path in the middle. After that, more neighbors stopped to talk with them, and some even shared seeds.",
+    "question": "What helped Mr. Chen and Ms. Lin solve their problem?",
+    "options": {
+      "A": "They made a plan that gave both people space.",
+      "B": "They removed the garden.",
+      "C": "They stopped talking to neighbors.",
+      "D": "They planted only flowers."
+    },
+    "answer": "A",
+    "explanation": "兩人用分區規劃同時保留花與菜，解決空間衝突。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-087",
+    "type": "閱測-主題判斷",
+    "passage": "Two neighbors share a small garden. Mr. Chen likes flowers, and Ms. Lin likes vegetables. At first, they argued about how to use the space. Then they drew a simple plan: flowers near the street, vegetables near the kitchen wall, and a small path in the middle. After that, more neighbors stopped to talk with them, and some even shared seeds.",
+    "question": "What is the reading mainly about?",
+    "options": {
+      "A": "Sharing space can work when people plan together.",
+      "B": "Vegetables should never grow near flowers.",
+      "C": "Neighbors should not talk outside.",
+      "D": "A path makes plants grow faster."
+    },
+    "answer": "A",
+    "explanation": "故事重點是透過共同規劃共享空間，並促進鄰里互動。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-088",
+    "type": "閱測-結論、推論",
+    "passage": "A teacher asks students to write book reports in two parts. Part One is a short summary of the story. Part Two is a personal response: what surprised them, what they questioned, and what they connected to their own lives. The teacher says summaries show what students remember, but responses show how they think.",
+    "question": "Why does the teacher ask for Part Two?",
+    "options": {
+      "A": "To see students' own thinking about the book.",
+      "B": "To make students copy the story again.",
+      "C": "To check only spelling mistakes.",
+      "D": "To stop students from reading."
+    },
+    "answer": "A",
+    "explanation": "老師說摘要顯示記得什麼，而回應顯示如何思考，因此 Part Two 是看個人思考。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-089",
+    "type": "閱測-細節判斷",
+    "passage": "A teacher asks students to write book reports in two parts. Part One is a short summary of the story. Part Two is a personal response: what surprised them, what they questioned, and what they connected to their own lives. The teacher says summaries show what students remember, but responses show how they think.",
+    "question": "What should students write in Part One?",
+    "options": {
+      "A": "A short summary of the story.",
+      "B": "Their bus times.",
+      "C": "A list of food.",
+      "D": "The teacher's phone number."
+    },
+    "answer": "A",
+    "explanation": "文章明確說 Part One is a short summary。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-090",
+    "type": "閱測-結論、推論",
+    "passage": "A town had a problem with people crossing the street while looking at their phones. The town first put up signs, but many people did not notice them. Later, students painted bright footsteps on the ground leading to the crosswalk. More people looked down, saw the footsteps, and walked to the safer place to cross.",
+    "question": "Why did the painted footsteps help?",
+    "options": {
+      "A": "They matched where phone users were looking.",
+      "B": "They made phones stop working.",
+      "C": "They told cars to fly away.",
+      "D": "They closed the crosswalk."
+    },
+    "answer": "A",
+    "explanation": "低頭看手機的人會看地面，腳印畫在地上更容易被看見，引導到安全穿越處。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-091",
+    "type": "閱測-主題判斷",
+    "passage": "A town had a problem with people crossing the street while looking at their phones. The town first put up signs, but many people did not notice them. Later, students painted bright footsteps on the ground leading to the crosswalk. More people looked down, saw the footsteps, and walked to the safer place to cross.",
+    "question": "What is the reading mainly about?",
+    "options": {
+      "A": "A creative way to guide people to a safer crossing.",
+      "B": "A rule that bans all phones forever.",
+      "C": "A story about painting cars.",
+      "D": "A new game for drivers."
+    },
+    "answer": "A",
+    "explanation": "文章描述從標誌改為地面腳印，引導低頭者安全過馬路。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-092",
+    "type": "閱測-其他",
+    "passage": "A family is choosing a plan for mobile Internet.\nPlan A: $300 per month and $50 for each extra unit of data.\nPlan B: $450 per month and $20 for each extra unit of data.\nThe family often uses 5 extra units each month and wants the cheaper plan.",
+    "question": "Which plan is cheaper for this family?",
+    "options": {
+      "A": "Plan B.",
+      "B": "Plan A.",
+      "C": "They cost the same.",
+      "D": "There is not enough information because no phone color is given."
+    },
+    "answer": "C",
+    "explanation": "Plan A 為 300+50×5=550；Plan B 為 450+20×5=550，兩者相同，因此選 C。題目考固定費與變動費整合。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-093",
+    "type": "閱測-結論、推論",
+    "passage": "A family is choosing a plan for mobile Internet.\nPlan A: $300 per month and $50 for each extra unit of data.\nPlan B: $450 per month and $20 for each extra unit of data.\nThe family often uses 5 extra units each month and wants the cheaper plan.",
+    "question": "If the family uses more than 5 extra units, which plan may become better?",
+    "options": {
+      "A": "Plan B, because each extra unit costs less.",
+      "B": "Plan A, because its basic fee is lower forever.",
+      "C": "Neither plan can be used.",
+      "D": "The plan with the brighter color."
+    },
+    "answer": "A",
+    "explanation": "超量單位越多，Plan B 的每單位 $20 較低，可能抵銷較高基本費。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-094",
+    "type": "閱測-結論、推論",
+    "passage": "A student council wants to make school announcements clearer. They learn that long messages in the morning are often forgotten by lunch. They decide to send short reminders before the event and put full details on the school website. Students say the short reminders help them remember what to do next.",
+    "question": "Why does the student council use both short reminders and the website?",
+    "options": {
+      "A": "Short reminders are easy to remember, while the website keeps full details.",
+      "B": "Students cannot read websites.",
+      "C": "Morning messages are always perfect.",
+      "D": "Events should have no details."
+    },
+    "answer": "A",
+    "explanation": "短提醒幫助記住下一步，網站放完整細節，兩者功能不同且互補。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-095",
+    "type": "閱測-主題判斷",
+    "passage": "A student council wants to make school announcements clearer. They learn that long messages in the morning are often forgotten by lunch. They decide to send short reminders before the event and put full details on the school website. Students say the short reminders help them remember what to do next.",
+    "question": "What is the reading mainly about?",
+    "options": {
+      "A": "Improving how school information is shared.",
+      "B": "Planning a lunch menu.",
+      "C": "Building a new classroom.",
+      "D": "Choosing a sports team."
+    },
+    "answer": "A",
+    "explanation": "文章討論如何讓校園公告更清楚：短提醒和網站細節。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-096",
+    "type": "閱測-結論、推論",
+    "passage": "A small island has many visitors in summer. Visitors bring money to local shops, but they also leave trash on the beach. The town starts a rule: every tour group must join a ten-minute beach clean-up before leaving. Some visitors say it is too much work, but shop owners notice that the beach looks better and more families return the next year.",
+    "question": "What is the town trying to balance?",
+    "options": {
+      "A": "Tourism and care for the environment.",
+      "B": "Cooking and painting.",
+      "C": "School tests and homework.",
+      "D": "Rainy days and bus stops."
+    },
+    "answer": "A",
+    "explanation": "觀光帶來收入，也帶來垃圾；規則要求遊客清理，平衡觀光與環境。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-097",
+    "type": "閱測-細節判斷",
+    "passage": "A small island has many visitors in summer. Visitors bring money to local shops, but they also leave trash on the beach. The town starts a rule: every tour group must join a ten-minute beach clean-up before leaving. Some visitors say it is too much work, but shop owners notice that the beach looks better and more families return the next year.",
+    "question": "What must every tour group do before leaving?",
+    "options": {
+      "A": "Join a ten-minute beach clean-up.",
+      "B": "Buy food from every shop.",
+      "C": "Stay on the island for a week.",
+      "D": "Paint the beach signs."
+    },
+    "answer": "A",
+    "explanation": "文中明說 every tour group must join a ten-minute beach clean-up before leaving。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-098",
+    "type": "閱測-上下文猜字義",
+    "passage": "At first, Nora hated making mistakes in English class. She tried to speak only when she was sure every word was correct. One day, her teacher said, 'A mistake is not a stop sign. It is a map.' Nora began to write down her mistakes and the better sentences next to them. After a few weeks, she spoke more often because she knew mistakes could show her what to learn next.",
+    "question": "In the teacher's words, what does 'map' mean?",
+    "options": {
+      "A": "Something that shows Nora where to improve.",
+      "B": "A paper for finding roads only.",
+      "C": "A sign that tells Nora to stop speaking.",
+      "D": "A list of perfect students."
+    },
+    "answer": "A",
+    "explanation": "老師把錯誤比喻成 map，意思是錯誤能指出下一步該學什麼。",
+    "difficulty": "精熟",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-099",
+    "type": "閱測-結論、推論",
+    "passage": "At first, Nora hated making mistakes in English class. She tried to speak only when she was sure every word was correct. One day, her teacher said, 'A mistake is not a stop sign. It is a map.' Nora began to write down her mistakes and the better sentences next to them. After a few weeks, she spoke more often because she knew mistakes could show her what to learn next.",
+    "question": "How did Nora change?",
+    "options": {
+      "A": "She became more willing to speak and learn from mistakes.",
+      "B": "She stopped going to English class.",
+      "C": "She decided never to write anything.",
+      "D": "She only spoke when every word was perfect."
+    },
+    "answer": "A",
+    "explanation": "Nora 從害怕錯誤到記錄錯誤並更常開口，表示願意從錯誤學習。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  },
+  {
+    "id": "EN-100",
+    "type": "閱測-主題判斷",
+    "passage": "At first, Nora hated making mistakes in English class. She tried to speak only when she was sure every word was correct. One day, her teacher said, 'A mistake is not a stop sign. It is a map.' Nora began to write down her mistakes and the better sentences next to them. After a few weeks, she spoke more often because she knew mistakes could show her what to learn next.",
+    "question": "What is the best title for the reading?",
+    "options": {
+      "A": "Learning from Mistakes",
+      "B": "The Fastest Road Map",
+      "C": "A Class Without Speaking",
+      "D": "How to Stop All Mistakes"
+    },
+    "answer": "A",
+    "explanation": "故事主旨是把錯誤當成學習線索，而不是停止標誌，因此最佳標題是 Learning from Mistakes。",
+    "difficulty": "基礎",
+    "stage": "advanced",
+    "hint": "Read the sentence or passage first, then check which option best fits the meaning."
+  }
+]
