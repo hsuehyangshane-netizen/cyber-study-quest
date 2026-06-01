@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+lxml
+
+# Optional tools
+# pip install pypdf            # 解析下載後的 PDF
+# pip install llama-cpp-python # 本地模型改寫與助教
