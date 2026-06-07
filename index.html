@@ -1,0 +1,1302 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="./" />
+    <title>會考貓貓冒險</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+    ></script>
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const renderMath = () => {
+          if (window.renderMathInElement) {
+            renderMathInElement(document.body, {
+              delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true },
+              ],
+              ignoredClasses: [
+                "pickaxe-inline-card",
+                "pickaxe-script-shell",
+                "pickaxe-script-deployment",
+                "pickaxe-query-box"
+              ],
+              throwOnError: false,
+            });
+          }
+        };
+
+        setTimeout(renderMath, 100);
+
+        let timeout = null;
+        const observer = new MutationObserver((mutations) => {
+          // Pickaxe 會大量動態改變自己的 Chat Input DOM。
+          // 不要因為 Pickaxe 內部變動反覆重跑全頁 KaTeX，否則容易造成卡頓或卡死。
+          const onlyPickaxe = mutations.length > 0 && mutations.every((mutation) => {
+            const target = mutation.target && mutation.target.nodeType === 1
+              ? mutation.target
+              : mutation.target && mutation.target.parentElement;
+            return !!(target && target.closest && target.closest("#pickaxeInlineTutor"));
+          });
+          if (onlyPickaxe) return;
+
+          clearTimeout(timeout);
+          timeout = setTimeout(renderMath, 180);
+        });
+        observer.observe(document.body, { childList: true, subtree: true });
+      });
+    </script>
+
+    <style>
+      .question-text,
+      .cap-question-text,
+      .choices {
+        word-break: break-word !important;
+        white-space: pre-wrap;
+        line-height: 1.8 !important;
+        letter-spacing: 0.05em;
+        text-align: justify;
+      }
+      .katex {
+        margin: 0 0.2em;
+      }
+    </style>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <audio
+      id="startMusicAudio"
+      src="./assets/audio/start_music.mp3"
+      preload="auto"
+      loop
+    ></audio>
+    <audio
+      id="battleMusicAudio"
+      src="./assets/audio/battle_music.mp3"
+      preload="auto"
+      loop
+    ></audio>
+    <audio
+      id="catMusicAudio"
+      src="./assets/audio/cat_music.mp3"
+      preload="auto"
+      loop
+    ></audio>
+    <audio
+      id="gachaMusicAudio"
+      src="./assets/audio/gacha_music.mp3"
+      preload="auto"
+      loop
+    ></audio>
+    <audio
+      id="hiddenBossMusicAudio"
+      src="./assets/audio/hidden_boss_music.mp3"
+      preload="auto"
+      loop
+    ></audio>
+    <audio id="catMeowAudio" src="./assets/audio/cat_meow.mp3" preload="auto"></audio>
+    <audio
+      id="correctSfx1"
+      src="./assets/audio/correct_sfx_1.mp3"
+      preload="auto"
+    ></audio>
+    <audio
+      id="correctSfx2"
+      src="./assets/audio/correct_sfx_2.mp3"
+      preload="auto"
+    ></audio>
+    <audio
+      id="correctSfx3"
+      src="./assets/audio/correct_sfx_3.mp3"
+      preload="auto"
+    ></audio>
+    <audio id="wrongSfx1" src="./assets/audio/wrong_sfx_1.mp3" preload="auto"></audio>
+    <audio id="wrongSfx2" src="./assets/audio/wrong_sfx_2.mp3" preload="auto"></audio>
+    <audio
+      id="bossFinisherSlashSfx"
+      src="./assets/audio/boss_finisher_slash.mp3"
+      preload="auto"
+    ></audio>
+    <audio id="correctSfxAudio" preload="auto"></audio>
+    <audio id="wrongSfxAudio" preload="auto"></audio>
+    <div class="scanline"></div>
+
+    <div class="quick-hub collapsed" id="quickHub">
+      <button
+        class="quick-hub-head"
+        type="button"
+        onclick="toggleQuickHub()"
+        aria-expanded="false"
+        aria-controls="quickHubBody"
+      >
+        <span class="quick-hub-title">快捷入口</span>
+        <span id="quickHubToggleIcon" class="quick-hub-toggle-icon">＋</span>
+      </button>
+      <div id="quickHubBody" class="quick-hub-body">
+        <div class="quick-hub-row primary-hub">
+          <button
+            id="hubMapBtn"
+            class="hub-btn map"
+            onclick="openAdventureMap()"
+          >
+            🗺️ 冒險地圖
+          </button>
+          <button class="hub-btn shop" onclick="showShopPage()">🛒 商店</button>
+          <button class="hub-btn gacha" onclick="showGachaPage()">
+            🎰 抽卡
+          </button>
+          <button class="hub-btn resume" onclick="restoreActiveSession()">
+            ↩️ 返回進度
+          </button>
+          <button class="hub-btn help" onclick="goHome()">❔ 玩法</button>
+        </div>
+        <div class="quick-hub-row collection-hub">
+          <button class="hub-btn small" onclick="showWrongBookPage()">
+            📘 錯題本
+          </button>
+          <button class="hub-btn small" onclick="showAchievementPage()">
+            🏆 成就
+          </button>
+          <button class="hub-btn small" onclick="showCodexPage()">
+            📖 圖鑑
+          </button>
+        </div>
+        <div id="hubHint" class="quick-hub-hint">
+          先進入科目關卡，冒險地圖才會開啟。
+        </div>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <div class="brand-mini">會考貓</div>
+
+      <div class="panel">
+        <div class="panel-title">玩家狀態</div>
+        <div class="stat-row">
+          <span>玩家</span><strong id="sidePlayerName">新手冒險者</strong>
+        </div>
+        <div class="stat-row">
+          <span>稱號</span><strong id="sideTitleName">新手冒險者</strong>
+        </div>
+        <button class="mini-btn full profile-edit-btn" onclick="renamePlayer()">
+          ✏️ 修改玩家名字
+        </button>
+        <button class="mini-btn full save-btn" onclick="manualSaveGame()">
+          💾 存檔並下載備份
+        </button>
+        <button class="mini-btn full save-btn" onclick="manualLoadGame()">
+          📂 讀取這個網址存檔
+        </button>
+        <button
+          class="mini-btn full save-btn"
+          onclick="triggerImportSaveFile()"
+        >
+          📥 匯入備份 JSON
+        </button>
+        <input
+          id="importSaveFileInput"
+          type="file"
+          accept="application/json,.json"
+          style="display: none"
+          onchange="importSaveFileFromInput(this)"
+        />
+        <div id="manualSaveStatus" class="save-status">尚未手動存檔</div>
+        <div class="stat-row">
+          <span>Level</span><strong id="sideLevel">1</strong>
+        </div>
+        <div class="bar-label">HP <span id="sideHpText">100/100</span></div>
+        <div class="bar"><div id="sideHpBar" class="bar-fill hp"></div></div>
+        <div class="bar-label">EXP <span id="sideExpText">0/50</span></div>
+        <div class="bar"><div id="sideExpBar" class="bar-fill exp"></div></div>
+      </div>
+
+      <div id="resumePanel" class="panel resume-panel empty">
+        <div class="panel-title">目前進度</div>
+        <div id="resumeModeText" class="resume-mode">沒有進行中的關卡</div>
+        <div id="resumeDetailText" class="resume-detail">
+          選科目開始後，這裡會顯示目前模式並可一鍵返回。
+        </div>
+        <button
+          id="resumeBtn"
+          class="mini-btn full resume-btn"
+          onclick="restoreActiveSession()"
+          disabled
+        >
+          ↩️ 返回進度
+        </button>
+        <button
+          id="resumeClearBtn"
+          class="mini-btn full subtle"
+          onclick="clearActiveSession()"
+          disabled
+        >
+          清除進行中紀錄
+        </button>
+      </div>
+
+      <div id="audioPanel" class="panel audio-panel">
+        <div class="panel-title">音量設定</div>
+        <div class="volume-row">
+          <label for="masterVolume"
+            >總音量 <span id="masterVolumeText">100%</span></label
+          >
+          <input
+            id="masterVolume"
+            type="range"
+            min="0"
+            max="100"
+            value="100"
+            oninput="updateVolumeSetting('master', this.value)"
+          />
+        </div>
+        <div class="volume-row">
+          <label for="bgmVolume"
+            >背景音樂 <span id="bgmVolumeText">70%</span></label
+          >
+          <input
+            id="bgmVolume"
+            type="range"
+            min="0"
+            max="100"
+            value="70"
+            oninput="updateVolumeSetting('bgm', this.value)"
+          />
+        </div>
+        <div class="volume-row">
+          <label for="sfxVolume"
+            >音效 <span id="sfxVolumeText">90%</span></label
+          >
+          <input
+            id="sfxVolume"
+            type="range"
+            min="0"
+            max="100"
+            value="90"
+            oninput="updateVolumeSetting('sfx', this.value)"
+          />
+        </div>
+        <button id="muteToggleBtn" class="mini-btn full" onclick="toggleMute()">
+          🔊 關閉靜音
+        </button>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">貓貓狀態</div>
+        <div class="cat-mini">ฅ^•ﻌ•^ฅ</div>
+        <div class="stat-row">
+          <span>名字</span><strong id="sideCatName">Pixel</strong>
+        </div>
+        <button class="mini-btn full profile-edit-btn" onclick="renameCat()">
+          ✏️ 修改貓貓名字
+        </button>
+        <div class="stat-row">
+          <span>Level</span><strong id="sideCatLevel">1</strong>
+        </div>
+        <div class="stat-row">
+          <span>小魚乾</span><strong id="sideFish">0</strong>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">背包與獎勵</div>
+        <div class="stat-row">
+          <span>寶箱</span><strong id="sideChestCount">0</strong>
+        </div>
+        <div class="stat-row">
+          <span>回復藥水</span><strong id="sideHealPotion">0</strong>
+        </div>
+        <div class="stat-row">
+          <span>升級藥水</span><strong id="sideExpPotion">0</strong>
+        </div>
+        <div class="stat-row">
+          <span>裝備外觀</span><strong id="sideEquippedSkin">橘喵初始型</strong>
+        </div>
+        <p class="muted small">
+          每次玩家升級都會獲得 1
+          個寶箱。寶箱可抽到不同稀有度的貓貓外觀、回復藥水或升級藥水。
+        </p>
+      </div>
+
+      <div class="panel clean-help-panel">
+        <div class="panel-title">玩法提示</div>
+        <div class="mini-guide-list">
+          <div>① 選科目開始答題</div>
+          <div>② 答對攻擊並獲得 EXP</div>
+          <div>③ 升級拿寶箱，抽貓貓外觀</div>
+        </div>
+        <button class="mini-btn full" onclick="showCatPage()">
+          🐾 查看貓貓
+        </button>
+        <button class="mini-btn full" onclick="showGachaPage()">
+          🎰 查看抽卡
+        </button>
+        <p id="backendStatus" class="muted small">離線 CAP 題庫已啟用。</p>
+      </div>
+
+      <button class="nav-btn" onclick="goHome()">🏠 回首頁</button>
+      <button class="nav-btn" onclick="startGameWithMusic()">
+        🧭 科目任務
+      </button>
+      <button class="nav-btn" onclick="startDaily3Challenge()">
+        🌙 今日 3 題
+      </button>
+      <button class="nav-btn" onclick="showCatPage()">🐾 貓貓養成</button>
+      <button id="inspectorNavBtn" class="nav-btn inspector-secret-btn" onclick="showInspectorPage()" style="display:none">🧪 題庫檢查室</button>
+      <button class="nav-btn" onclick="showQuestPage()">📜 任務表</button>
+      <button class="nav-btn danger" onclick="resetAll()">🔄 重置資料</button>
+    </aside>
+
+    <main class="app">
+      <section id="homePage" class="page active">
+        <div class="hero">
+          <div class="hero-left">
+            <div class="glitch clean-title" data-text="會考貓貓冒險">
+              會考貓貓冒險
+            </div>
+            <div class="subtitle">五科練習 × 貓貓養成 × 關卡挑戰</div>
+            <p class="hero-text">
+              選科目、答會考風題目、打怪升級、養貓貓、抽造型。第一次玩就照下面三步驟開始。
+            </p>
+            <button class="primary-btn big" onclick="startGameWithMusic()">
+              ▶ 開始練習
+            </button>
+            <button class="daily3-hero-btn" onclick="startDaily3Challenge()">
+              🌙 今天只打 3 題
+            </button>
+            <div class="home-quick-actions">
+              <button class="secondary-btn" onclick="showQuestPage()">
+                📜 查看任務表
+              </button>
+              <button class="secondary-btn" onclick="showGachaPage()">
+                🎰 前往抽卡
+              </button>
+            </div>
+            <div id="startMusicStatus" class="start-music-status">
+              按下開始後會進入科目選單，也會播放背景音樂。
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="nova-card pixel-version">
+              <div class="sprite-frame">
+                <img
+                  src="./assets/img/nova_pixel_chibi.png"
+                  alt="像素貓學習夥伴"
+                  class="nova-sprite-img"
+                />
+                <div class="sprite-glow-ring"></div>
+              </div>
+              <div class="nova-name-card">小喵</div>
+              <div class="nova-title">像素貓學習夥伴</div>
+              <div class="mini-status">
+                <span>新手導覽</span>
+                <span>CAT MODE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card daily-mail-card">
+          <div class="daily-mail-head">
+            <div>
+              <div class="daily-mail-kicker">Pixel Mail</div>
+              <h2>📮 今日貓貓郵件</h2>
+              <p class="muted" id="dailyMailDate">
+                每天第一次回來，Pixel 都會準備一封小郵件。
+              </p>
+            </div>
+            <span class="daily-mail-streak" id="dailyMailStreak"
+              >連續 0 天</span
+            >
+          </div>
+          <div id="dailyMailMessage" class="daily-mail-message">
+            Pixel 正在整理今天的信……
+          </div>
+          <div id="dailyMailReward" class="daily-mail-reward">
+            今日獎勵準備中
+          </div>
+          <div class="daily-mail-actions">
+            <button
+              id="dailyMailClaimBtn"
+              class="primary-btn"
+              onclick="claimDailyMail()"
+            >
+              領取今日郵件
+            </button>
+            <button class="secondary-btn" onclick="startDaily3Challenge()">
+              🌙 完成今日 3 題
+            </button>
+          </div>
+        </div>
+
+        <div id="homeOnboarding" class="clean-start-panel">
+          <div class="clean-panel-title">新手三步驟</div>
+          <div class="onboarding-steps">
+            <div class="step-card primary">
+              <div class="step-number">1</div>
+              <h2>選科目，開始戰鬥</h2>
+              <p>
+                選國文、英文、數學、自然或社會。答對會攻擊怪物，答錯會顯示解析。
+              </p>
+              <button class="primary-btn" onclick="startGameWithMusic()">
+                開始選科目
+              </button>
+            </div>
+            <div class="step-card">
+              <div class="step-number">2</div>
+              <h2>養貓貓，補能量</h2>
+              <p>
+                答題可獲得小魚乾。餵小魚乾補能量，摸摸會增加親密度；能量為 0
+                就不能摸。
+              </p>
+              <button class="secondary-btn" onclick="showCatPage()">
+                查看貓貓系統
+              </button>
+            </div>
+            <div class="step-card">
+              <div class="step-number">3</div>
+              <h2>抽卡，收集造型</h2>
+              <p>
+                升級與任務會給寶箱或資源。到抽卡室十連抽，收集不同稀有度的貓貓造型與道具。
+              </p>
+              <button class="secondary-btn" onclick="showGachaPage()">
+                查看抽卡系統
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="system-overview">
+          <div class="overview-card">
+            <div class="overview-icon">⚔️</div>
+            <div>
+              <h3>答題戰鬥</h3>
+              <p>章節模式每 10 題進 Boss；也可以切換無盡模式。</p>
+            </div>
+          </div>
+          <div class="overview-card">
+            <div class="overview-icon">🐾</div>
+            <div>
+              <h3>貓貓養成</h3>
+              <p>小魚乾、能量、親密度、貓貓碎片與外觀都會保存。</p>
+            </div>
+          </div>
+          <div class="overview-card">
+            <div class="overview-icon">🎰</div>
+            <div>
+              <h3>抽卡收集</h3>
+              <p>SSR、EPIC、RARE、普通造型分級，抽到重複可累積碎片。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="subjectPage" class="page">
+        <div class="page-title">選擇科目</div>
+        <div class="page-subtitle">選一科開始今天的練習</div>
+        <div class="card mode-card">
+          <h2>⚙️ 挑戰模式</h2>
+          <p class="muted">
+            上方模式會一鍵套用到下面所有科目的開始按鈕。現在點進任一科目關卡後，會先彈出
+            <strong>冒險地圖</strong> 讓你選擇開局路線，再正式進入戰鬥。
+          </p>
+          <div class="mode-toggle-row">
+            <button
+              id="modeChapterBtn"
+              class="primary-btn"
+              onclick="setGameMode('chapter')"
+            >
+              📘 10題章節模式
+            </button>
+            <button
+              id="modeEndlessBtn"
+              class="secondary-btn"
+              onclick="setGameMode('endless')"
+            >
+              ♾️ 無盡模式
+            </button>
+          </div>
+          <div id="modeDescription" class="mode-description">
+            目前模式：10題章節模式｜答滿 10 題後進入 Boss
+            戰，打贏後自動進入結算畫面。v47 難度校準：簡單更基礎，困難更重推理。
+          </div>
+        </div>
+        <div id="subjectGrid" class="subject-grid"></div>
+      </section>
+
+      <section id="battlePage" class="page">
+        <div class="battle-header">
+          <div>
+            <div class="page-title" id="battleTitle">答題戰鬥</div>
+            <div class="page-subtitle" id="battleSubtitle">怪物已出現</div>
+          </div>
+          <div id="buffHud" class="buff-hud"></div>
+          <div class="battle-actions">
+            <button class="secondary-btn" onclick="restartBattle()">
+              🔁 重新挑戰</button
+            ><button class="secondary-btn" onclick="startGameWithMusic()">
+              🧭 返回科目
+            </button>
+          </div>
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <h2>🧑‍🚀 玩家資料</h2>
+            <div class="big-number" id="playerName">新手冒險者</div>
+            <div class="bar-label">
+              玩家 HP <span id="playerHpText">100/100</span>
+            </div>
+            <div class="bar">
+              <div id="playerHpBar" class="bar-fill hp"></div>
+            </div>
+            <div class="bar-label">
+              EXP <span id="playerExpText">0/50</span>
+            </div>
+            <div class="bar">
+              <div id="playerExpBar" class="bar-fill exp"></div>
+            </div>
+            <span class="tag" id="playerLevelTag">Level 1</span>
+            <div class="battle-flow-panel">
+              <div class="flow-row">
+                <span>🔥 BONUS</span>
+                <strong id="bonusText">Combo 0｜x1.00</strong>
+              </div>
+              <div class="flow-row">
+                <span>⚡ FEVER</span>
+                <strong id="feverText">0/100</strong>
+              </div>
+              <div class="bar fever-bar">
+                <div id="feverBar" class="bar-fill fever"></div>
+              </div>
+              <div id="feverStatus" class="flow-status">
+                連續答對可累積 Bonus，答對也會累積 Fever。
+              </div>
+            </div>
+            <details class="battle-item-drawer" id="battleItemDrawer">
+              <summary>
+                <span>🎒 戰鬥道具</span>
+                <strong id="battleItemTotal">0</strong>
+              </summary>
+              <div class="battle-item-actions">
+                <button class="mini-btn" onclick="useHealPotion()">
+                  🧪 使用回復藥水（<span id="battleHealPotion">0</span>）
+                </button>
+                <button class="mini-btn" onclick="useExpPotion()">
+                  ✨ 使用升級藥水（<span id="battleExpPotion">0</span>）
+                </button>
+                <button class="mini-btn" onclick="useRemoveWrong()">
+                  🧹 刪除錯選（<span id="battleRemoveWrong">0</span>）
+                </button>
+                <button class="mini-btn" onclick="useHintCard()">
+                  💡 提示卡（<span id="battleHintCard">0</span>）
+                </button>
+                <button class="mini-btn" onclick="useShieldCard()">
+                  🛡️ 護盾（<span id="battleShieldCard">0</span>）
+                </button>
+                <button class="mini-btn" onclick="useFeverBattery()">
+                  ⚡ Fever電池（<span id="battleFeverBattery">0</span>）
+                </button>
+                <button class="mini-btn" onclick="useBonusGuard()">
+                  🔥 Bonus保護（<span id="battleBonusGuard">0</span>）
+                </button>
+                <button class="mini-btn" onclick="useExpBoost()">
+                  📘 EXP加倍（<span id="battleExpBoost">0</span>）
+                </button>
+                <button class="mini-btn" onclick="useHardTicket()">
+                  🧠 困難券（<span id="battleHardTicket">0</span>）
+                </button>
+              </div>
+            </details>
+          </div>
+          <div class="card monster-card">
+            <h2 id="monsterIconTitle">👾 怪物資料</h2>
+            <div class="big-number monster-name" id="monsterName">怪物</div>
+            <img
+              id="monsterPortrait"
+              class="monster-portrait"
+              alt="Boss portrait"
+            />
+            <p class="muted" id="monsterDesc"></p>
+            <span class="tag">難度：普通</span>
+            <div class="bar-label">
+              怪物 HP <span id="monsterHpText">100/100</span>
+            </div>
+            <div class="bar">
+              <div id="monsterHpBar" class="bar-fill monster"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="question-card cap-question-card">
+          <div class="question-topline">
+            <div class="question-meta" id="questionMeta">題目</div>
+            <button
+              class="mini-btn layout-toggle"
+              onclick="toggleReadingMode()"
+            >
+              📖 閱讀模式
+            </button>
+          </div>
+          <div class="question-text cap-question-text" id="questionText"></div>
+          <div id="choices" class="choices cap-choices"></div>
+        </div>
+        <div id="feedbackArea"></div>
+
+        <div class="grid two">
+          <div class="card">
+            <h2>⚔️ 戰鬥紀錄</h2>
+            <div id="battleLog"></div>
+          </div>
+          <div class="card">
+            <h2>🐾 Pixel 支援</h2>
+            <div class="pixel-large">ฅ^•ﻌ•^ฅ</div>
+            <p id="battleCatLine" class="muted">Pixel 正在旁邊看你戰鬥。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="mapPage" class="page">
+        <div class="page-title">冒險地圖</div>
+        <div class="page-subtitle">
+          單向隨機房間地圖｜每次生成不同房間，不能回頭，但一定能走到傳送房
+        </div>
+        <div class="grid two map-layout-grid">
+          <div class="card map-visual-card">
+            <h2>🗺️ 概念地圖</h2>
+            <p class="muted">
+              矩形房間會以走廊互相連接。綠色是出生房、紫色是傳送房，黃色標記是你目前所在的位置；只能選擇前方房間。
+            </p>
+            <div id="mapSvgWrap" class="dungeon-map-wrap"></div>
+            <div class="map-legend">
+              <span><i class="legend-swatch spawn"></i>出生房</span>
+              <span><i class="legend-swatch normal"></i>題目房</span>
+              <span><i class="legend-swatch hard"></i>挑戰房</span>
+              <span><i class="legend-swatch rest"></i>補給房</span>
+              <span><i class="legend-swatch treasure"></i>獎勵房</span>
+              <span><i class="legend-swatch teleport"></i>傳送房</span>
+            </div>
+          </div>
+          <div class="card">
+            <h2>📍 地圖資訊</h2>
+            <div class="stat-row">
+              <span>目前科目</span><strong id="mapSubject">-</strong>
+            </div>
+            <div class="stat-row">
+              <span>目前地圖</span><strong id="mapFloor">1</strong>
+            </div>
+            <div class="stat-row">
+              <span>房間總數</span><strong id="mapRoomCount">0</strong>
+            </div>
+            <div class="stat-row">
+              <span>所在房間</span><strong id="mapCurrentRoom">-</strong>
+            </div>
+            <div class="stat-row">
+              <span>已答題數</span><strong id="mapTotal">0</strong>
+            </div>
+            <div class="stat-row">
+              <span>HP</span><strong id="mapHp">100</strong>
+            </div>
+            <div class="stat-row">
+              <span>小魚乾</span><strong id="mapFish">0</strong>
+            </div>
+            <div class="stat-row">
+              <span>碎片</span><strong id="mapFragments">0/10</strong>
+            </div>
+            <div id="mapNote" class="effect-box">
+              選擇前方相鄰房間後前進，不能回頭。
+            </div>
+            <h2 style="margin-top: 16px">➡️ 可前往的房間</h2>
+            <div id="mapRoomChoices" class="map-room-choice-list"></div>
+            <button class="secondary-btn" onclick="continueFromMap()">
+              自動前往下一間前方房間
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="shopPage" class="page">
+        <div class="page-title">ITEM SHOP</div>
+        <div class="page-subtitle">小魚乾與碎片商店｜買道具讓答題更有策略</div>
+        <div class="grid two">
+          <div class="card">
+            <h2>🛒 商品列表</h2>
+            <p class="muted">
+              道具可以在戰鬥中使用。提示卡、刪錯卡、護盾與 Fever
+              電池會讓無盡模式更像肉鴿。
+            </p>
+            <div id="shopList" class="shop-list"></div>
+          </div>
+          <div class="card">
+            <h2>🎒 道具背包</h2>
+            <div id="itemBagList" class="item-bag-list"></div>
+            <button class="primary-btn" onclick="showSubjects()">
+              回科目選擇
+            </button>
+            <button class="secondary-btn" onclick="goNext()">回戰鬥</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="buffPage" class="page">
+        <div class="page-title">ROGUE UPGRADE</div>
+        <div class="page-subtitle">答對累積後選擇一項助益效果</div>
+        <div class="card">
+          <h2>✨ 選擇本輪助益</h2>
+          <p class="muted">
+            無盡模式中特別強力：每連續答對數題會出現一次三選一增益。章節模式也能觸發，但無盡模式可以一路疊加形成流派。
+          </p>
+          <div id="buffChoiceGrid" class="buff-choice-grid"></div>
+        </div>
+      </section>
+
+      <section id="eventPage" class="page">
+        <div class="page-title">RANDOM EVENT</div>
+        <div class="page-subtitle">突發事件｜選擇一個行動</div>
+        <div class="card">
+          <h2 id="eventTitle">神秘事件</h2>
+          <p id="eventDesc" class="muted">小喵發現新的分支事件。</p>
+          <div id="eventChoices" class="event-choice-grid"></div>
+        </div>
+      </section>
+
+      <section id="achievementPage" class="page">
+        <div class="page-title">ACHIEVEMENTS</div>
+        <div class="page-subtitle">成就、稱號與長期目標</div>
+        <div class="grid two">
+          <div class="card">
+            <h2>🏆 成就列表</h2>
+            <p class="muted">
+              完成成就可獲得 EXP、寶箱碎片、寶箱或稱號。稱號可裝備並提供小加成。
+            </p>
+            <div id="achievementList" class="achievement-list"></div>
+          </div>
+          <div class="card">
+            <h2>🎖️ 稱號裝備</h2>
+            <div class="stat-row">
+              <span>目前稱號</span
+              ><strong id="equippedTitleName">新手冒險者</strong>
+            </div>
+            <div id="titleEffectText" class="effect-box">效果：無</div>
+            <div id="titleList" class="title-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="codexPage" class="page">
+        <div class="page-title">CODEX</div>
+        <div class="page-subtitle">貓貓、Boss、肉鴿助益圖鑑</div>
+        <div class="grid three">
+          <div class="card">
+            <h2>🐱 貓貓圖鑑</h2>
+            <div id="codexCats" class="codex-list"></div>
+          </div>
+          <div class="card">
+            <h2>👑 Boss 圖鑑</h2>
+            <div id="codexBosses" class="codex-list"></div>
+          </div>
+          <div class="card">
+            <h2>✨ 助益圖鑑</h2>
+            <div id="codexBuffs" class="codex-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="wrongBookPage" class="page wrongbook-page-clean">
+        <div class="page-title">錯題本模式</div>
+        <div class="page-subtitle">
+          雷達圖弱點分析｜點擊類型後直接進入錯題修正
+        </div>
+
+        <div class="wrongbook-dashboard-card card">
+          <div class="wrongbook-dashboard-head">
+            <div>
+              <h2>📊 錯題雷達圖</h2>
+              <p class="muted">
+                依照你答錯過的「科目｜題型」統計。點擊常錯類型即可開始修正，答對後會從錯題本移除。
+              </p>
+            </div>
+            <button class="secondary-btn compact" onclick="goHome()">
+              回主頁
+            </button>
+          </div>
+          <div id="wrongBookContent"></div>
+        </div>
+      </section>
+
+      <section id="reportPage" class="page">
+        <div class="page-title">結算報告</div>
+        <div class="page-subtitle">本回合學習成果</div>
+        <div class="report-grid">
+          <div class="card metric">
+            <span>科目</span><strong id="reportSubject">數學</strong>
+          </div>
+          <div class="card metric">
+            <span>正確率</span><strong id="reportAccuracy">0%</strong>
+          </div>
+          <div class="card metric">
+            <span>答對 / 答錯</span><strong id="reportCounts">0 / 0</strong>
+          </div>
+          <div class="card metric">
+            <span>獲得</span><strong id="reportReward">+0 EXP</strong>
+          </div>
+          <div class="card metric">
+            <span>模式</span><strong id="reportMode">章節模式</strong>
+          </div>
+        </div>
+        <div class="nova-dialog">
+          <div class="nova-avatar">N</div>
+          <div>
+            <div class="nova-name-line">學習夥伴 小喵</div>
+            <div class="nova-text" id="reportNovaText">
+              小喵正在整理本回合成果……
+            </div>
+          </div>
+        </div>
+        <div class="card cat-diary-card">
+          <div class="cat-diary-head">
+            <div>
+              <h2>🐾 Pixel 的今日觀察</h2>
+              <p class="muted">
+                不是冷冰冰的分數，是貓貓幫你整理的回家後小結。
+              </p>
+            </div>
+            <span id="catDiaryMood" class="cat-diary-mood">CAT LOG</span>
+          </div>
+          <div id="catDiaryContent" class="cat-diary-content">
+            Pixel 正在翻今天的戰鬥紀錄……
+          </div>
+        </div>
+        <div id="reportQuickActions" class="report-quick-actions">
+          <button class="primary-btn" onclick="showQuestPage()">
+            📜 領取任務獎勵
+          </button>
+          <button class="secondary-btn" onclick="showGachaPage()">
+            🎰 前往抽卡
+          </button>
+          <button class="secondary-btn" onclick="showCatPage()">
+            🐾 養成貓貓
+          </button>
+        </div>
+        <div class="card">
+          <h2>🎁 升級獎勵總覽</h2>
+          <p class="muted">
+            目前持有寶箱 <strong id="reportChestCount">0</strong> 個，回復藥水
+            <strong id="reportHealCount">0</strong> 瓶，升級藥水
+            <strong id="reportExpCount">0</strong> 瓶。
+          </p>
+          <button class="primary-btn" onclick="showGachaPage()">
+            去抽卡開寶箱
+          </button>
+        </div>
+        <div class="card">
+          <h2>🧪 深度同類型錯題加練</h2>
+          <p class="muted">
+            即時出題暫時關閉；系統會依照錯題類型安排同類型加練，降低重複題與一眼答案。
+          </p>
+          <button class="primary-btn" onclick="generateExtraQuestion()">
+            生成同類型加練</button
+          ><button class="secondary-btn" onclick="showWrongBookPage()">
+            進入錯題本模式
+          </button>
+          <div id="extraQuestionBox"></div>
+        </div>
+        <div class="report-actions">
+          <button class="primary-btn" onclick="restartBattle()">
+            🔁 重新挑戰本科</button
+          ><button class="secondary-btn" onclick="startGameWithMusic()">
+            🧭 回科目選擇</button
+          ><button class="secondary-btn" onclick="showCatPage()">
+            🐾 去看 Pixel
+          </button>
+        </div>
+      </section>
+
+
+      <section id="inspectorPage" class="page">
+        <div class="page-title">題庫檢查室</div>
+        <div class="page-subtitle">輸入貓貓名字 exam 後開啟｜檢查所有已匯入題庫的顯示與 JSON</div>
+
+        <div class="card inspector-panel">
+          <div class="inspector-toolbar">
+            <select id="inspectorSubjectFilter" onchange="applyInspectorFilters()">
+              <option value="ALL">全部科目</option>
+            </select>
+            <input id="inspectorSearchInput" class="inspector-search" placeholder="搜尋題目、題號、主題、選項..." oninput="applyInspectorFilters()" />
+            <button class="secondary-btn" onclick="prevInspectorQuestion()">← 上一題</button>
+            <button class="secondary-btn" onclick="nextInspectorQuestion()">下一題 →</button>
+            <button class="secondary-btn" onclick="randomInspectorQuestion()">🎲 隨機</button>
+          </div>
+
+          <div id="inspectorSummary" class="inspector-summary">載入題庫中……</div>
+          <div id="inspectorMeta" class="inspector-meta"></div>
+
+          <div class="inspector-layout">
+            <aside class="inspector-list-wrap">
+              <div class="inspector-list-title">題目清單</div>
+              <div id="inspectorList" class="inspector-list"></div>
+            </aside>
+
+            <div class="inspector-detail">
+              <div class="grid two inspector-grid">
+                <div class="card">
+                  <h3>實際顯示</h3>
+                  <div id="inspectorRendered" class="inspector-rendered"></div>
+                </div>
+                <div class="card">
+                  <h3>自動檢查</h3>
+                  <div id="inspectorErrors" class="inspector-errors"></div>
+                </div>
+              </div>
+
+              <div class="card">
+                <h3>原始 JSON</h3>
+                <pre id="inspectorRaw" class="inspector-raw"></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="questPage" class="page">
+        <div class="page-title">任務表</div>
+        <div class="page-subtitle">完成任務可獲得 EXP、寶箱與補給</div>
+        <div class="grid two">
+          <div class="card">
+            <h2>📜 任務列表</h2>
+            <p class="muted">
+              任務會追蹤你的答題、Boss、科目練習與貓貓養成。完成後按「領取」即可得到獎勵。
+            </p>
+            <div id="questList" class="quest-list"></div>
+          </div>
+          <div class="card">
+            <h2>🎁 任務獎勵說明</h2>
+            <p class="muted">
+              任務 EXP 會直接加到玩家身上，EXP
+              滿會升級，升級後獲得寶箱。部分任務也會直接送寶箱或藥水。
+            </p>
+            <div class="stat-row">
+              <span>玩家等級</span><strong id="questLevel">1</strong>
+            </div>
+            <div class="stat-row">
+              <span>玩家 EXP</span><strong id="questExp">0/50</strong>
+            </div>
+            <div class="stat-row">
+              <span>寶箱</span><strong id="questChestCount">0</strong>
+            </div>
+            <div class="stat-row">
+              <span>已領取任務</span><strong id="questCompleteCount">0</strong>
+            </div>
+            <button class="primary-btn" onclick="showSubjects()">
+              去挑戰題目
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="gachaPage" class="page">
+        <div class="page-title">CAT GACHA</div>
+        <div class="page-subtitle">獨立抽卡介面｜單抽與十抽</div>
+        <div class="grid two">
+          <div class="card">
+            <h2>🎰 貓貓抽卡機</h2>
+            <div class="stat-row">
+              <span>持有寶箱</span><strong id="gachaChestCount">0</strong>
+            </div>
+            <div class="stat-row">
+              <span>寶箱碎片</span><strong id="gachaFragmentCount">0/10</strong>
+            </div>
+            <div class="stat-row">
+              <span>EPIC 保底</span><strong id="gachaEpicPity">0/30</strong>
+            </div>
+            <div class="stat-row">
+              <span>SSR 保底</span><strong id="gachaSsrPity">0/80</strong>
+            </div>
+            <div class="stat-row">
+              <span>SSR 機率</span><strong>約 3%（3款SSR各約1%）</strong>
+            </div>
+            <div class="stat-row">
+              <span>EPIC 機率</span><strong>10%</strong>
+            </div>
+            <div class="stat-row">
+              <span>RARE 機率</span><strong>30%</strong>
+            </div>
+            <div class="stat-row"><span>普通池</span><strong>57%</strong></div>
+            <p class="muted">
+              單抽消耗 1 個寶箱；十抽消耗 10 個寶箱。重複造型會轉換成升級藥水。
+            </p>
+            <div class="gacha-actions">
+              <button class="primary-btn" onclick="openChest()">🎁 單抽</button>
+              <button class="primary-btn tenpull" onclick="openTenChests()">
+                🎰 十連抽
+              </button>
+              <button class="secondary-btn" onclick="craftChestFromFragments()">
+                碎片合成寶箱
+              </button>
+              <button class="secondary-btn" onclick="showCatPage()">
+                去裝備貓貓
+              </button>
+            </div>
+            <div id="gachaMessage" class="chest-message">準備抽卡。</div>
+            <div id="gachaResults" class="gacha-results"></div>
+          </div>
+          <div class="card">
+            <h2>🐱 當前裝備效果</h2>
+            <div class="cat-display-frame">
+              <img
+                id="gachaEquippedCat"
+                class="cat-skin-display"
+                src="./assets/img/skins/orange_tabby.png"
+                alt="目前裝備貓貓"
+              />
+            </div>
+            <div class="stat-row">
+              <span>已裝備</span
+              ><strong id="gachaEquippedName">橘虎初始型</strong>
+            </div>
+            <div class="stat-row">
+              <span>稀有度</span
+              ><strong id="gachaEquippedRarity">COMMON</strong>
+            </div>
+            <div class="effect-box" id="gachaEquippedEffect">
+              效果：全科答對 EXP +3%
+            </div>
+            <p class="muted">
+              不同貓貓有不同學習加成；SSR 目前設定為 3 款，其他卡皆降為 EPIC
+              以下。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="catPage" class="page">
+        <div class="page-title">CAT CAT ROOM</div>
+        <div class="page-subtitle">Pixel 貓貓養成室｜抽卡已移到獨立頁面</div>
+        <div class="cat-room">
+          <div class="cat-card">
+            <div class="cat-display-frame">
+              <img
+                id="catSkinDisplay"
+                class="cat-skin-display"
+                src="./assets/img/skins/orange_tabby.png"
+                alt="Pixel 造型"
+              />
+            </div>
+            <div class="cat-name" id="catNameDisplay">Pixel</div>
+            <div class="muted">
+              餵食補能量，摸摸加親密度，升級有機率掉落碎片。
+            </div>
+            <div class="tag chest-tag">
+              已裝備：<span id="equippedSkinName">橘喵初始型</span>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Pixel 狀態</h2>
+            <div class="stat-row">
+              <span>等級</span><strong id="catLevel">1</strong>
+            </div>
+            <div class="stat-row">
+              <span>親密度</span><strong id="catLove">0</strong>
+            </div>
+            <div class="stat-row">
+              <span>能量</span><strong id="catEnergy">50</strong>
+            </div>
+            <div class="stat-row">
+              <span>小魚乾</span><strong id="fishCount">0</strong>
+            </div>
+            <div class="bar-label">
+              親密度 <span id="catLoveText">0/100</span>
+            </div>
+            <div class="bar">
+              <div id="catLoveBar" class="bar-fill love"></div>
+            </div>
+            <div class="bar-label">
+              能量 <span id="catEnergyText">50/100</span>
+            </div>
+            <div class="bar">
+              <div id="catEnergyBar" class="bar-fill energy"></div>
+            </div>
+            <div class="cat-actions">
+              <button class="primary-btn" onclick="feedCat()">餵小魚乾</button
+              ><button class="primary-btn" onclick="petCat()">摸摸貓貓</button
+              ><button class="secondary-btn" onclick="renameCat()">
+                改貓貓名字</button
+              ><button
+                id="hiddenNewtonBossBtn"
+                class="hidden-boss-btn"
+                onclick="startHiddenCalculusBoss()"
+                style="display: none"
+              >
+                ∂
+              </button>
+            </div>
+            <div id="catMessage" class="nova-dialog compact">
+              <div class="nova-avatar">N</div>
+              <div>
+                <div class="nova-name-line">小喵學習夥伴</div>
+                <div class="nova-text">
+                  喂喂喂，這小傢伙看起來正在等你。要不要先摸摸他？
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid two chest-grid">
+          <div class="card">
+            <h2>🎒 背包摘要</h2>
+            <div class="stat-row">
+              <span>持有寶箱</span><strong id="catChestCount">0</strong>
+            </div>
+            <div class="stat-row">
+              <span>回復藥水</span><strong id="catHealPotion">0</strong>
+            </div>
+            <div class="stat-row">
+              <span>升級藥水</span><strong id="catExpPotion">0</strong>
+            </div>
+            <p class="muted">
+              這裡只顯示養成與背包狀態；抽卡已獨立移到 CAT GACHA 頁面。
+            </p>
+            <div class="cat-actions two-actions">
+              <button class="primary-btn" onclick="showGachaPage()">
+                🎰 前往獨立抽卡室</button
+              ><button class="secondary-btn" onclick="useExpPotion()">
+                ✨ 使用升級藥水
+              </button>
+            </div>
+          </div>
+          <div class="card" id="catSkillPanel">
+            <h2>🧬 貓貓技能升級</h2>
+            <div class="stat-row">
+              <span>目前造型</span><strong id="catSkillName">橘虎初始型</strong>
+            </div>
+            <div class="stat-row">
+              <span>技能等級</span><strong id="catSkillLevel">Lv.1</strong>
+            </div>
+            <div class="stat-row">
+              <span>貓貓碎片</span><strong id="catShardCount">0</strong>
+            </div>
+            <div class="effect-box" id="catSkillEffect">
+              每升一級會提高目前裝備貓貓的支援能力。
+            </div>
+            <button class="primary-btn" onclick="upgradeEquippedCatSkill()">
+              升級目前貓貓技能
+            </button>
+            <p class="muted small">
+              抽到重複貓貓會轉為該貓碎片。升級需要貓碎片與寶箱碎片。
+            </p>
+          </div>
+          <div class="card">
+            <h2>🐱 造型收藏</h2>
+            <p class="muted">
+              解鎖後即可點擊裝備。不同貓貓會提供不同科目或戰鬥加成；抽卡請到獨立抽卡頁。
+            </p>
+            <div id="skinGallery" class="skin-gallery"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./data/question_bank_chinese.js"></script>
+    <script src="./data/question_bank_english.js"></script>
+    <script src="./data/question_bank_math.js"></script>
+    <script src="./data/question_bank_science.js"></script>
+    <script src="./data/question_bank_social.js"></script>
+    <script src="./js/core/question-engine-bootstrap.js"></script>
+    <script src="./js/core/external-bank-adapters.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/core/math-render.js"></script>
+    <script src="./js/core/game-content-config.js"></script>
+    <script src="./js/core/progression-system.js"></script>
+    <script src="./js/core/hidden-boss-system.js"></script>
+    <script src="./js/app.js"></script>
+    <div
+      id="bossFinisherOverlay"
+      class="boss-finisher-overlay"
+      aria-hidden="true"
+    >
+      <div class="boss-finisher-stage">
+        <img
+          class="boss-finisher-bg"
+          src="./assets/img/boss_finisher_red_bg.png"
+          alt="最後一擊紅色背景"
+        />
+        <div class="boss-finisher-shade"></div>
+        <div class="boss-finisher-boss" aria-hidden="true">
+          <div class="boss-finisher-boss-aura"></div>
+          <img
+            id="bossFinisherBossBase"
+            class="boss-finisher-boss-base"
+            src="./assets/img/bosses/chinese_boss.png"
+            alt="目前 Boss"
+          />
+          <div class="boss-finisher-slice slice-1">
+            <img
+              class="boss-finisher-slice-img"
+              src="./assets/img/bosses/chinese_boss.png"
+              alt=""
+            />
+          </div>
+          <div class="boss-finisher-slice slice-2">
+            <img
+              class="boss-finisher-slice-img"
+              src="./assets/img/bosses/chinese_boss.png"
+              alt=""
+            />
+          </div>
+          <div class="boss-finisher-slice slice-3">
+            <img
+              class="boss-finisher-slice-img"
+              src="./assets/img/bosses/chinese_boss.png"
+              alt=""
+            />
+          </div>
+          <div class="boss-finisher-slice slice-4">
+            <img
+              class="boss-finisher-slice-img"
+              src="./assets/img/bosses/chinese_boss.png"
+              alt=""
+            />
+          </div>
+          <div id="bossFinisherBossName" class="boss-finisher-boss-name">
+            BOSS
+          </div>
+        </div>
+        <div class="boss-finisher-slash slash-a"></div>
+        <div class="boss-finisher-slash slash-b"></div>
+        <div class="boss-finisher-slash slash-c"></div>
+        <div class="boss-finisher-cat-wrap">
+          <img
+            id="bossFinisherCat"
+            class="boss-finisher-cat"
+            src="./assets/img/skins/orange_tabby.png"
+            alt="目前貓貓最後一擊"
+          />
+          <div id="bossFinisherCatName" class="boss-finisher-cat-name">
+            目前貓貓
+          </div>
+        </div>
+        <div class="boss-finisher-title">
+          <div class="finisher-main">最後一擊</div>
+          <div class="finisher-sub">CURRENT CAT FINISHER</div>
+        </div>
+        <button class="boss-finisher-skip" onclick="hideBossFinisherCutscene()">
+          SKIP
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
