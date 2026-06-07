@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+  <rect width="100%" height="100%" fill="white"/>
+  <style>
+    .axis{stroke:#111;stroke-width:3;fill:none;stroke-linecap:round}
+    .line{stroke:#111;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .dash{stroke:#111;stroke-width:2;fill:none;stroke-dasharray:8 8;stroke-linecap:round}
+    .bar{stroke:#111;stroke-width:3;fill:#f7f7f7}
+    .txt{font-family:serif;font-size:24px;fill:#111}
+    .small{font-family:serif;font-size:18px;fill:#111}
+    .grid{stroke:#ddd;stroke-width:1;fill:none}
+    .arrow{stroke:#111;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#111"/></marker></defs>
+  
+  <path class="line" d="M100 330 C200 270,270 250,360 315 C450 380,560 360,670 300"/>
+  <path class="line" d="M100 340 C210 370,290 395,370 360 C455 325,535 285,670 295"/>
+  <path class="arrow" d="M300 220 L355 275"/><path class="arrow" d="M450 220 L395 275"/>
+  <path class="line" d="M360 315 L390 360"/>
+  <text class="txt" x="265" y="145">Convergent boundary</text>
+  <text class="small" x="145" y="415">oceanic plate</text><text class="small" x="500" y="415">continental plate</text>
+  <text class="small" x="365" y="300">trench</text>
+
+</svg>

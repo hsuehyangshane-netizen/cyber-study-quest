@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520">
+  <rect width="100%" height="100%" fill="white"/>
+  <g stroke="#dddddd" stroke-width="1">
+    <!-- grid -->
+    <path d="M120 40 V460 M170 40 V460 M220 40 V460 M270 40 V460 M320 40 V460 M370 40 V460 M420 40 V460 M470 40 V460 M520 40 V460 M570 40 V460 M620 40 V460"/>
+    <path d="M70 410 H650 M70 360 H650 M70 310 H650 M70 260 H650 M70 210 H650 M70 160 H650 M70 110 H650 M70 60 H650"/>
+  </g>
+  <g stroke="black" stroke-width="2.5">
+    <path d="M70 410 H650"/>
+    <path d="M120 460 V40"/>
+  </g>
+  <g fill="black" font-family="serif" font-size="20">
+    <text x="640" y="435">x</text>
+    <text x="95" y="55">y</text>
+    <text x="104" y="433">O</text>
+  </g>
+  <g stroke="black" stroke-width="4" fill="none">
+    <!-- l: y=x+2 ; m: y=-x+6, scale 50, origin (120,410) -->
+    <path d="M120 310 L420 10" />
+    <path d="M120 110 L420 410" />
+  </g>
+  <g fill="black" font-family="serif" font-size="22">
+    <text x="392" y="42">l</text>
+    <text x="392" y="394">m</text>
+  </g>
+  <g fill="black" stroke="black">
+    <circle cx="220" cy="210" r="6"/>
+    <circle cx="120" cy="310" r="4"/>
+    <circle cx="120" cy="110" r="4"/>
+    <circle cx="420" cy="10" r="4"/>
+    <circle cx="420" cy="410" r="4"/>
+  </g>
+  <g fill="black" font-family="serif" font-size="20">
+    <text x="232" y="205">P</text>
+    <text x="88" y="318">(0,2)</text>
+    <text x="86" y="104">(0,6)</text>
+    <text x="432" y="28">(6,8)</text>
+    <text x="432" y="417">(6,0)</text>
+  </g>
+</svg>

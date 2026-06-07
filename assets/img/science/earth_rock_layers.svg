@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+  <rect width="100%" height="100%" fill="white"/>
+  <style>
+    .axis{stroke:#111;stroke-width:3;fill:none;stroke-linecap:round}
+    .line{stroke:#111;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .dash{stroke:#111;stroke-width:2;fill:none;stroke-dasharray:8 8;stroke-linecap:round}
+    .bar{stroke:#111;stroke-width:3;fill:#f7f7f7}
+    .txt{font-family:serif;font-size:24px;fill:#111}
+    .small{font-family:serif;font-size:18px;fill:#111}
+    .grid{stroke:#ddd;stroke-width:1;fill:none}
+    .arrow{stroke:#111;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#111"/></marker></defs>
+  
+  <path class="line" d="M100 130 H660 V430 H100 Z"/>
+  <path class="thin" d="M100 200 H660 M100 270 H660 M100 340 H660"/>
+  <path class="line" d="M250 430 L420 130"/>
+  <text class="small" x="120" y="175">Layer A</text><text class="small" x="120" y="245">Layer B</text><text class="small" x="120" y="315">Layer C</text><text class="small" x="120" y="390">Layer D</text>
+  <text class="small" x="430" y="235">fault</text>
+  <text class="txt" x="260" y="70">Rock layers and fault</text>
+
+</svg>

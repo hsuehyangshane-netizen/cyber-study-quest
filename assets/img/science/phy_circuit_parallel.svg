@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+  <rect width="100%" height="100%" fill="white"/>
+  <style>
+    .axis{stroke:#111;stroke-width:3;fill:none;stroke-linecap:round}
+    .line{stroke:#111;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .dash{stroke:#111;stroke-width:2;fill:none;stroke-dasharray:8 8;stroke-linecap:round}
+    .bar{stroke:#111;stroke-width:3;fill:#f7f7f7}
+    .txt{font-family:serif;font-size:24px;fill:#111}
+    .small{font-family:serif;font-size:18px;fill:#111}
+    .grid{stroke:#ddd;stroke-width:1;fill:none}
+    .arrow{stroke:#111;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#111"/></marker></defs>
+  
+  <path class="line" d="M150 140 H610 V410 H150 Z"/>
+  <path class="thin" d="M150 240 H610 M150 320 H610"/>
+  <path class="thin" d="M245 120 V160 M270 120 V160"/><text class="small" x="235" y="105">Battery</text>
+  <rect x="330" y="225" width="100" height="30" fill="white" stroke="#111" stroke-width="3"/><text class="small" x="360" y="218">R₁</text>
+  <rect x="330" y="305" width="100" height="30" fill="white" stroke="#111" stroke-width="3"/><text class="small" x="360" y="298">R₂</text>
+  <text class="txt" x="260" y="60">Parallel circuit</text>
+
+</svg>
